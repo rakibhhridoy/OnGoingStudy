@@ -25,7 +25,16 @@ require(corrplot)
 ```
 
 ```{r}
+winter
+```
 
+```{r}
+dt_cor <- winter[, 1:10]
+dt_cor
+```
+
+```{r}
+str(dt_cor)
 ```
 
 ```{r}
@@ -49,7 +58,62 @@ require(corrplot)
 ```
 
 ```{r}
+corrplot(
+   cor(dt_cor[,-1]),
+   addCoef.col = "white",
+   number.cex = 1.5,
+   number.digits = 2,
+   tl.col = "black",
+   tl.cex = 1.4,
+   diag = FALSE,
+   bg = "grey",
+   outline = "black",
+   addgrid.col = "white",
+   mar = c(1,1,1,1))
+```
 
+```{r}
+corrplot.mixed(cor(dt_cor[, -1]), lower = 'shade', upper = 'pie')
+```
+
+```{r}
+corrplot.mixed(cor(dt_cor[, -1]), lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = .8)
+```
+
+```{r}
+winter
+```
+
+```{r}
+winter[,19:28]
+```
+
+```{r}
+dt1 <- winter[,19:28]
+dt1
+```
+
+```{r}
+corrplot(
+   cor(dt1),
+   addCoef.col = "white",
+   number.cex = 1.5,
+   number.digits = 2,
+   tl.col = "black",
+   tl.cex = 1.4,
+   diag = FALSE,
+   bg = "grey",
+   outline = "black",
+   addgrid.col = "white",
+   mar = c(1,1,1,1))
+```
+
+```{r}
+cor(dt1)
+```
+
+```{r}
+corrplot.mixed(cor(dt1), lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = 1.8)
 ```
 
 ```{r}
@@ -65,6 +129,68 @@ require(corrplot)
 ```
 
 ```{r}
+summer <- read.csv("data/Buriganga_S.csv")
+summer
+```
+
+```{r}
+sd1 <- summer[, 2:10]
+sd1
+```
+
+```{r}
+str(sd1)
+```
+
+```{r}
+corrplot(
+   cor(sd1),
+   addCoef.col = "white",
+   number.cex = 1.5,
+   number.digits = 2,
+   tl.col = "black",
+   tl.cex = 1.4,
+   diag = FALSE,
+   bg = "grey",
+   outline = "black",
+   addgrid.col = "white",
+   mar = c(1,1,1,1))
+```
+
+```{r}
+corrplot.mixed(cor(sd1), lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = 1.8)
+```
+
+```{r}
+cor(sd1)
+```
+
+```{r}
+summer
+```
+
+```{r}
+sd2 <- summer[, 19:28]
+sd2
+```
+
+```{r}
+corrplot(
+   cor(sd2),
+   addCoef.col = "white",
+   number.cex = 1.5,
+   number.digits = 2,
+   tl.col = "black",
+   tl.cex = 1.4,
+   diag = FALSE,
+   bg = "grey",
+   outline = "black",
+   addgrid.col = "white",
+   mar = c(1,1,1,1))
+```
+
+```{r}
+corrplot.mixed(cor(sd2), lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = 1.8)
 
 ```
 
@@ -77,7 +203,141 @@ require(corrplot)
 ```
 
 ```{r}
+summer
+```
 
+```{r}
+require(factoextra)
+require(FactoMineR)
+require(ggplot2)
+require(haven)
+require(psych)
+```
+
+```{r}
+sample1 <- PCA(data.frame(summer[2:28]), graph = FALSE, ncp = 10,  scale.unit = TRUE)
+eig.val <- get_eigenvalue(sample1)
+eig.val
+```
+
+```{r}
+write.csv(eig.val, "eig_val_summer.csv")
+```
+
+```{r}
+rotate1 <- pca(summer[,2:28], nfactors=5, rotate="varimax")
+rotate1
+```
+
+```{r}
+?pca
+```
+
+```{r}
+rotate1$loadings
+```
+
+```{r}
+rotate1$r.scores
+```
+
+```{r}
+write.csv(rotate1$loadings, "rotated_pca_summer.csv")
+```
+
+```{r}
+describe(winter)
+```
+
+```{r}
+install.packages("nFactors")
+```
+
+```{r}
+fitw <- factanal(winter[,2:28], factors= 3, rotation = "oblimin")
+fitw
+```
+
+```{r}
+require("psych")
+```
+
+```{r}
+fa(winter[,2:28], factors = 3, rotation = "varimax")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+fcas <- pca(summer[, 2:28], nfactors = 5, rotate = F)
+fcas
+```
+
+```{r}
+fcas$loadings
+```
+
+```{r}
+write.csv(fcas$loadings, "pca_summer.csv")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+sample2 <- PCA(data.frame(winter[2:28]), graph = FALSE, ncp = 10,  scale.unit = TRUE)
+eig.val <- get_eigenvalue(sample2)
+eig.val
+```
+
+```{r}
+write.csv(eig.val, "eig_val_winter.csv")
+```
+
+```{r}
+fcaw <- pca(winter[, 2:28], nfactors = 5, rotate = F)
+fcaw
+```
+
+```{r}
+write.csv(fcaw$loadings, "pca_winter.csv")
+```
+
+```{r}
+rotate2 <- pca(winter[, 2:28], nfactors = 5, rotate = "varimax")
+rotate2
+```
+
+```{r}
+write.csv(rotate2$loadings, "rotated_winter_pca.csv")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+winter
 ```
 
 ```{r}
