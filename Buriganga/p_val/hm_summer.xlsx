@@ -1,0 +1,37 @@
+,Point,p value
+0,Gabtoli Dhalwes | Gabtoli Turag,0.0013283435256490562
+1,Gabtoli Dhalwes | Shah Cement,0.01669659075330105
+2,Gabtoli Dhalwes | Hazaribag,0.039745479529077476
+3,Gabtoli Dhalwes | Rayerbazar,0.0006057540971820561
+4,Gabtoli Dhalwes | Kholamora,0.08028776158822745
+5,Gabtoli Dhalwes | Zinzira,0.00016762605977362573
+6,Gabtoli Dhalwes | Sadarghat Terminal,0.04155538401977462
+7,Gabtoli Dhalwes | Postogola Bri,0.08392977152486765
+8,Gabtoli Turag | Shah Cement,0.002169737796285117
+9,Gabtoli Turag | Hazaribag,0.2030537788865327
+10,Gabtoli Turag | Rayerbazar,0.01760751822982012
+11,Gabtoli Turag | Kholamora,0.010925239849565668
+12,Gabtoli Turag | Zinzira,0.0001838222045724898
+13,Gabtoli Turag | Sadarghat Terminal,0.11524039765907794
+14,Gabtoli Turag | Postogola Bri,0.1476245283576844
+15,Shah Cement | Hazaribag,0.34821256129381045
+16,Shah Cement | Rayerbazar,0.16309752447259715
+17,Shah Cement | Kholamora,1.3780695281187786e-05
+18,Shah Cement | Zinzira,0.012841161628707246
+19,Shah Cement | Sadarghat Terminal,0.356015669790856
+20,Shah Cement | Postogola Bri,0.5744071642113422
+21,Hazaribag | Rayerbazar,0.041741196023504595
+22,Hazaribag | Kholamora,0.6570369086868163
+23,Hazaribag | Zinzira,0.05466206696838362
+24,Hazaribag | Sadarghat Terminal,0.01701924308836771
+25,Hazaribag | Postogola Bri,0.048158916517358194
+26,Rayerbazar | Kholamora,0.38085937305963097
+27,Rayerbazar | Zinzira,0.007992145596895595
+28,Rayerbazar | Sadarghat Terminal,0.04876240445753712
+29,Rayerbazar | Postogola Bri,0.0525864566219172
+30,Kholamora | Zinzira,0.0646734289831692
+31,Kholamora | Sadarghat Terminal,0.7108114020610956
+32,Kholamora | Postogola Bri,0.9748827549893442
+33,Zinzira | Sadarghat Terminal,0.01754038178765534
+34,Zinzira | Postogola Bri,0.029554241381558786
+35,Sadarghat Terminal | Postogola Bri,4.610892080618689e-05
