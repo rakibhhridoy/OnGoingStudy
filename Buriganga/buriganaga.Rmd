@@ -361,7 +361,37 @@ KMO(summer[,2:28])
 ```
 
 ```{r}
+install.packages("readxl")
+```
 
+```{r}
+require(readxl)
+```
+
+```{r}
+summer <- read.csv("data/Buriganga_S.csv")
+winter <- read.csv("data/Buriganga_W .csv")
+```
+
+```{r}
+summer
+```
+
+```{r}
+winter
+```
+
+```{r}
+a = t.test(summer$pH, winter$pH, conf.level = 0.01)
+```
+
+```{r}
+a$p.value
+```
+
+```{r}
+a = t.test(summer$pH, winter$pH, conf.level = 0.05)
+a$p.value
 ```
 
 ```{r}
@@ -369,7 +399,88 @@ KMO(summer[,2:28])
 ```
 
 ```{r}
+require(readxl)
+require(corrplot)
+```
 
+```{r}
+winter <- read_excel("/home/RHHLab/Research/Buriganga/data/microbio_winter.xlsx") 
+```
+
+```{r}
+summer <- read_excel("/home/RHHLab/Research/Buriganga/data/microbio_summer.xlsx")
+
+```
+
+```{r}
+winter
+```
+
+```{r}
+summer
+```
+
+```{r}
+winter <- winter[,-1]
+summer <- summer[,-1]
+winter
+summer
+```
+```{r}
+colnames(summer)[1] = "NH4+"
+colnames(summer)[2] = "NO3"
+colnames(summer)[3] = "Phosphate"
+colnames(summer)[4] = "Sulfates"
+colnames(summer)[5] = "THB"
+colnames(summer)[6] = "TC"
+colnames(summer)[7] = "FC"
+colnames(summer)[8] = "FS"
+colnames(summer)[9] = "Vibrio C"
+colnames(summer)[10] = "E coli"
+summer
+```
+
+```{r}
+colnames(winter)[1] = "NH4+"
+colnames(winter)[2] = "NO3"
+colnames(winter)[3] = "Phosphate"
+colnames(winter)[4] = "Sulfates"
+colnames(winter)[5] = "THB"
+colnames(winter)[6] = "TC"
+colnames(winter)[7] = "FC"
+colnames(winter)[8] = "FS"
+colnames(winter)[9] = "Vibrio C"
+colnames(winter)[10] = "E coli"
+winter
+```
+
+```{r}
+corr_winter <- cor(winter)
+corr_summer <- cor(summer)
+```
+
+```{r}
+corrplot(corr_winter,title = "", method = "square", outline = T, addgrid.col = "darkgray", order="hclust", mar = c(4,0,4,0), addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5)
+```
+
+```{r}
+corrplot(corr_winter, method = "color", outline = T, addgrid.col = "darkgray", order="hclust", addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5, addCoef.col = "white", number.digits = 2, number.cex = 1.5, col = colorRampPalette(c("darkred","white","midnightblue"))(100))
+```
+
+```{r}
+corrplot.mixed(corr_winter, lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = 1.8)
+```
+
+```{r}
+corrplot(corr_summer,title = "", method = "square", outline = T, addgrid.col = "darkgray", order="hclust", mar = c(4,0,4,0), addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5)
+```
+
+```{r}
+corrplot(corr_summer, method = "color", outline = T, addgrid.col = "darkgray", order="hclust", addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5, addCoef.col = "white", number.digits = 2, number.cex = 1.5, col = colorRampPalette(c("darkred","white","midnightblue"))(100))
+```
+
+```{r}
+corrplot.mixed(corr_summer, lower = 'shade', upper = 'pie', tl.pos = "lt", tl.col = "black", tl.cex = 1.8)
 ```
 
 ```{r}

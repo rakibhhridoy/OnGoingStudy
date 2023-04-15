@@ -8,7 +8,257 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
-plot(cars)
+winter = read.csv("/home/RHHLab/Research/Five_Rivers/Python/winter.csv")
+rainy =  read.csv("/home/RHHLab/Research/Five_Rivers/Python/rainy.csv")
+```
+
+```{r}
+winter <- winter[,-1]
+winter
+```
+
+```{r}
+fc <- factanal(winter, factors = 3, rotation = "varimax")
+fc
+```
+
+```{r}
+fc$loadings
+```
+
+```{r}
+write.csv(fc$loadings, "Factor_loadings_Winter.csv")
+```
+
+```{r}
+fc <- factanal(rainy, factors = 3, rotation = "varimax")
+fc
+```
+
+```{r}
+
+```
+
+```{r}
+write.csv(fc$loadings, "Factor_loadings_rainy.csv")
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+require(psych)
+```
+
+```{r}
+pc <- pca(winter, nfactors = 3, rotate = "varimax")
+pc
+```
+
+```{r}
+pc$weights[1,]
+```
+
+```{r}
+require(factoextra)
+require(FactoMineR)
+```
+
+```{r}
+sample2 <- PCA(data.frame(winter), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+eig.val <- get_eigenvalue(sample2)
+eig.val
+```
+
+```{r}
+sample2 <- PCA(data.frame(rainy), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+eig.val <- get_eigenvalue(sample2)
+eig.val
+```
+
+```{r}
+cr <- max(pc$weights[1,])
+ni <- max(pc$weights[2,])
+cu <- max(pc$weights[3,])
+as <- max(pc$weights[4,])
+cd <- max(pc$weights[5,])
+pb <- max(pc$weights[6,])
+```
+
+```{r}
+cr
+ni
+cu
+as
+cd
+pb
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+mean(pc$weights[1,])
+```
+
+```{r}
+write.csv(pc$loadings, "PCA_loading_Winter.csv")
+```
+
+```{r}
+pc <- pca(rainy, nfactors = 3, rotate = "varimax")
+pc
+```
+
+```{r}
+write.csv(pc$loadings, "PCA_loading_rainy.csv")
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.

@@ -223,9 +223,313 @@ pre code {
 <p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGxvdChjYXJzKVxuYGBgIn0= -->
-<pre class="r"><code>plot(cars)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud2ludGVyID0gcmVhZC5jc3YoXCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3ZcIilcbnJhaW55ID0gIHJlYWQuY3N2KFwiL2hvbWUvUkhITGFiL1Jlc2VhcmNoL0ZpdmVfUml2ZXJzL1B5dGhvbi9yYWlueS5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>winter = read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/winter.csv&quot;)
+rainy =  read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/rainy.csv&quot;)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud2ludGVyIDwtIHdpbnRlclssLTFdXG53aW50ZXJcbmBgYCJ9 -->
+<pre class="r"><code>winter &lt;- winter[,-1]
+winter</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwod2ludGVyLCBmYWN0b3JzID0gMywgcm90YXRpb24gPSBcInZhcmltYXhcIilcbmZjXG5gYGAifQ== -->
+<pre class="r"><code>fc &lt;- factanal(winter, factors = 3, rotation = &quot;varimax&quot;)
+fc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMkbG9hZGluZ3NcbmBgYCJ9 -->
+<pre class="r"><code>fc$loadings</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KGZjJGxvYWRpbmdzLCBcIkZhY3Rvcl9sb2FkaW5nc19XaW50ZXIuY3N2XCIpXG5gYGAifQ== -->
+<pre class="r"><code>write.csv(fc$loadings, &quot;Factor_loadings_Winter.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwocmFpbnksIGZhY3RvcnMgPSAzLCByb3RhdGlvbiA9IFwidmFyaW1heFwiKVxuZmNcbmBgYCJ9 -->
+<pre class="r"><code>fc &lt;- factanal(rainy, factors = 3, rotation = &quot;varimax&quot;)
+fc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KGZjJGxvYWRpbmdzLCBcIkZhY3Rvcl9sb2FkaW5nc19yYWlueS5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>write.csv(fc$loadings, &quot;Factor_loadings_rainy.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShwc3ljaClcbmBgYCJ9 -->
+<pre class="r"><code>require(psych)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHdpbnRlciwgbmZhY3RvcnMgPSAzLCByb3RhdGUgPSBcInZhcmltYXhcIilcbnBjXG5gYGAifQ== -->
+<pre class="r"><code>pc &lt;- pca(winter, nfactors = 3, rotate = &quot;varimax&quot;)
+pc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMkd2VpZ2h0c1sxLF1cbmBgYCJ9 -->
+<pre class="r"><code>pc$weights[1,]</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShmYWN0b2V4dHJhKVxucmVxdWlyZShGYWN0b01pbmVSKVxuYGBgIn0= -->
+<pre class="r"><code>require(factoextra)
+require(FactoMineR)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZSh3aW50ZXIpLCBncmFwaCA9IEZBTFNFLCBuY3AgPSAzLCAgc2NhbGUudW5pdCA9IFRSVUUpXG5laWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpXG5laWcudmFsXG5gYGAifQ== -->
+<pre class="r"><code>sample2 &lt;- PCA(data.frame(winter), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+eig.val &lt;- get_eigenvalue(sample2)
+eig.val</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZShyYWlueSksIGdyYXBoID0gRkFMU0UsIG5jcCA9IDMsICBzY2FsZS51bml0ID0gVFJVRSlcbmVpZy52YWwgPC0gZ2V0X2VpZ2VudmFsdWUoc2FtcGxlMilcbmVpZy52YWxcbmBgYCJ9 -->
+<pre class="r"><code>sample2 &lt;- PCA(data.frame(rainy), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+eig.val &lt;- get_eigenvalue(sample2)
+eig.val</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3IgPC0gbWF4KHBjJHdlaWdodHNbMSxdKVxubmkgPC0gbWF4KHBjJHdlaWdodHNbMixdKVxuY3UgPC0gbWF4KHBjJHdlaWdodHNbMyxdKVxuYXMgPC0gbWF4KHBjJHdlaWdodHNbNCxdKVxuY2QgPC0gbWF4KHBjJHdlaWdodHNbNSxdKVxucGIgPC0gbWF4KHBjJHdlaWdodHNbNixdKVxuYGBgIn0= -->
+<pre class="r"><code>cr &lt;- max(pc$weights[1,])
+ni &lt;- max(pc$weights[2,])
+cu &lt;- max(pc$weights[3,])
+as &lt;- max(pc$weights[4,])
+cd &lt;- max(pc$weights[5,])
+pb &lt;- max(pc$weights[6,])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3Jcbm5pXG5jdVxuYXNcbmNkXG5wYlxuYGBgIn0= -->
+<pre class="r"><code>cr
+ni
+cu
+as
+cd
+pb</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWVhbihwYyR3ZWlnaHRzWzEsXSlcbmBgYCJ9 -->
+<pre class="r"><code>mean(pc$weights[1,])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KHBjJGxvYWRpbmdzLCBcIlBDQV9sb2FkaW5nX1dpbnRlci5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>write.csv(pc$loadings, &quot;PCA_loading_Winter.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHJhaW55LCBuZmFjdG9ycyA9IDMsIHJvdGF0ZSA9IFwidmFyaW1heFwiKVxucGNcbmBgYCJ9 -->
+<pre class="r"><code>pc &lt;- pca(rainy, nfactors = 3, rotate = &quot;varimax&quot;)
+pc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KHBjJGxvYWRpbmdzLCBcIlBDQV9sb2FkaW5nX3JhaW55LmNzdlwiKVxuXG5gYGAifQ== -->
+<pre class="r"><code>write.csv(pc$loadings, &quot;PCA_loading_rainy.csv&quot;)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Ctrl+Alt+I</em>.</p>
@@ -233,7 +537,7 @@ pre code {
 <p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gCgpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIAoKYGBge3J9CnBsb3QoY2FycykKYGBgCgpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouCgpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4KClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4K</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gCgpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIAoKYGBge3J9CndpbnRlciA9IHJlYWQuY3N2KCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3YiKQpyYWlueSA9ICByZWFkLmNzdigiL2hvbWUvUkhITGFiL1Jlc2VhcmNoL0ZpdmVfUml2ZXJzL1B5dGhvbi9yYWlueS5jc3YiKQpgYGAKCmBgYHtyfQp3aW50ZXIgPC0gd2ludGVyWywtMV0Kd2ludGVyCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHdpbnRlciwgZmFjdG9ycyA9IDMsIHJvdGF0aW9uID0gInZhcmltYXgiKQpmYwpgYGAKCmBgYHtyfQpmYyRsb2FkaW5ncwpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfV2ludGVyLmNzdiIpCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHJhaW55LCBmYWN0b3JzID0gMywgcm90YXRpb24gPSAidmFyaW1heCIpCmZjCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfcmFpbnkuY3N2IikKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQpyZXF1aXJlKHBzeWNoKQpgYGAKCmBgYHtyfQpwYyA8LSBwY2Eod2ludGVyLCBuZmFjdG9ycyA9IDMsIHJvdGF0ZSA9ICJ2YXJpbWF4IikKcGMKYGBgCgpgYGB7cn0KcGMkd2VpZ2h0c1sxLF0KYGBgCgpgYGB7cn0KcmVxdWlyZShmYWN0b2V4dHJhKQpyZXF1aXJlKEZhY3RvTWluZVIpCmBgYAoKYGBge3J9CnNhbXBsZTIgPC0gUENBKGRhdGEuZnJhbWUod2ludGVyKSwgZ3JhcGggPSBGQUxTRSwgbmNwID0gMywgIHNjYWxlLnVuaXQgPSBUUlVFKQplaWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpCmVpZy52YWwKYGBgCgpgYGB7cn0Kc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZShyYWlueSksIGdyYXBoID0gRkFMU0UsIG5jcCA9IDMsICBzY2FsZS51bml0ID0gVFJVRSkKZWlnLnZhbCA8LSBnZXRfZWlnZW52YWx1ZShzYW1wbGUyKQplaWcudmFsCmBgYAoKYGBge3J9CmNyIDwtIG1heChwYyR3ZWlnaHRzWzEsXSkKbmkgPC0gbWF4KHBjJHdlaWdodHNbMixdKQpjdSA8LSBtYXgocGMkd2VpZ2h0c1szLF0pCmFzIDwtIG1heChwYyR3ZWlnaHRzWzQsXSkKY2QgPC0gbWF4KHBjJHdlaWdodHNbNSxdKQpwYiA8LSBtYXgocGMkd2VpZ2h0c1s2LF0pCmBgYAoKYGBge3J9CmNyCm5pCmN1CmFzCmNkCnBiCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KbWVhbihwYyR3ZWlnaHRzWzEsXSkKYGBgCgpgYGB7cn0Kd3JpdGUuY3N2KHBjJGxvYWRpbmdzLCAiUENBX2xvYWRpbmdfV2ludGVyLmNzdiIpCmBgYAoKYGBge3J9CnBjIDwtIHBjYShyYWlueSwgbmZhY3RvcnMgPSAzLCByb3RhdGUgPSAidmFyaW1heCIpCnBjCmBgYAoKYGBge3J9CndyaXRlLmNzdihwYyRsb2FkaW5ncywgIlBDQV9sb2FkaW5nX3JhaW55LmNzdiIpCgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouCgpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4KClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4K</div>
 
 
 
