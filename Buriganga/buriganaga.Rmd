@@ -429,8 +429,8 @@ summer
 ```{r}
 colnames(summer)[1] = "NH4+"
 colnames(summer)[2] = "NO3"
-colnames(summer)[3] = "Phosphate"
-colnames(summer)[4] = "Sulfates"
+colnames(summer)[3] = "PO4"
+colnames(summer)[4] = "SO4"
 colnames(summer)[5] = "THB"
 colnames(summer)[6] = "TC"
 colnames(summer)[7] = "FC"
@@ -443,8 +443,8 @@ summer
 ```{r}
 colnames(winter)[1] = "NH4+"
 colnames(winter)[2] = "NO3"
-colnames(winter)[3] = "Phosphate"
-colnames(winter)[4] = "Sulfates"
+colnames(winter)[3] = "PO4"
+colnames(winter)[4] = "SO4"
 colnames(winter)[5] = "THB"
 colnames(winter)[6] = "TC"
 colnames(winter)[7] = "FC"
@@ -461,6 +461,15 @@ corr_summer <- cor(summer)
 
 ```{r}
 corrplot(corr_winter,title = "", method = "square", outline = T, addgrid.col = "darkgray", order="hclust", mar = c(4,0,4,0), addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "b", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5)
+```
+
+```{r}
+corrplot(corr_winter,title = "", method = "square", outline = T, addgrid.col = "darkgray", order="hclust", mar = c(4,0,4,0), addrect = 4, rect.col = "black", rect.lwd = 5,cl.pos = "d", tl.col = "indianred4", tl.cex = 1.5, cl.cex = 1.5)
+```
+
+```{r}
+corrplot(corr_winter, method = 'square', diag = FALSE, order = 'hclust',
+         addrect = 3, rect.col = 'blue', rect.lwd = 3, tl.pos = 'd')
 ```
 
 ```{r}

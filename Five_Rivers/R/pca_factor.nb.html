@@ -223,9 +223,15 @@ pre code {
 <p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud2ludGVyID0gcmVhZC5jc3YoXCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3ZcIilcbnJhaW55ID0gIHJlYWQuY3N2KFwiL2hvbWUvUkhITGFiL1Jlc2VhcmNoL0ZpdmVfUml2ZXJzL1B5dGhvbi9yYWlueS5jc3ZcIilcbmBgYCJ9 -->
-<pre class="r"><code>winter = read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/winter.csv&quot;)
-rainy =  read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/rainy.csv&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud2ludGVyID0gcmVhZC5jc3YoXCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3ZcIilcbmBgYCJ9 -->
+<pre class="r"><code>winter = read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/winter.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiV2FybmluZyBtZXNzYWdlOlxuUiBncmFwaGljcyBlbmdpbmUgdmVyc2lvbiAxNSBpcyBub3Qgc3VwcG9ydGVkIGJ5IHRoaXMgdmVyc2lvbiBvZiBSU3R1ZGlvLiBUaGUgUGxvdHMgdGFiIHdpbGwgYmUgZGlzYWJsZWQgdW50aWwgYSBuZXdlciB2ZXJzaW9uIG9mIFJTdHVkaW8gaXMgaW5zdGFsbGVkLiBcbiJ9 -->
+<pre><code>Warning message:
+R graphics engine version 15 is not supported by this version of RStudio. The Plots tab will be disabled until a newer version of RStudio is installed. </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmFpbnkgPSAgcmVhZC5jc3YoXCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3JhaW55LmNzdlwiKVxuYGBgIn0= -->
+<pre class="r"><code>rainy =  read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/rainy.csv&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -235,6 +241,13 @@ rainy =  read.csv(&quot;/home/RHHLab/Research/Five_Rivers/Python/rainy.csv&quot;
 <pre class="r"><code>winter &lt;- winter[,-1]
 winter</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6NiwibnJvdyI6MTd9LCJyZGYiOiJINHNJQUFBQUFBQUFBMTFVUzB3VFVSUjlWRnFra1VKalhaZ2d4cTVvU3F0UUVWQUlsMEFBRGIvcEI5cW1tZ3o5UUtWTVN6L3hnd3MzdURKaG95YTRjQU11ZE1IS0JXdU5paEdOQ3hNM3hvUm9qQWx1TWF6UU4rKzhhY3k4WkhvLzc5NXp6NzF6cDhHaGFNQWV0VFBHanJCYUMvKzFjcFZaSStGaFh6Y1RIbGJEYWxtOUxtL3k2K05jc2ZISHdSOG54WisyYkNsN0t4UjM3cTIwYkFWcGVtbGswM1Y3bDVUdkFmMVFySDZObjhjVXViL0R6d2VLcTRqck9MZit4ZDYzUk8ydCt5OVhFeDd5Q3BqVE5CTkMzdFY3R2YxUWU3TUlJTThPOHNNMXlKOXNRdjY0Q010VStReTBJZTdTU2RRZGY5NVg0SkUwK3BDanRQNmh5ek4yM1VGZENuQXUrRG5ia1UwS1grRy9ybVdLVE1BZWU4K3ZsZCtrL0JLQkZQcWtUNFhSNEF2OTJrVTliL1UyUjZsWDFsRStJazlCZjFVK3loM3dDY3A0WlJ0NE15ZkFKK1pBM3R3R2NCTU96Q0YyREgzSDV6R2Y2RFBVeVhoNTI0VU5LaWl3Zys4Z1F6K1FIeDlEdmNRMzRLUTk0bjFVK2JqRk9Qckkrd0R4Rjczb3N5Y0duTjVyeUd2RFhLbFQyaDRYNHRzcTRCMlErSjRua081MThEcTFqL3N6alFtOUFUcS9pZjRDbjVIZitWcTg2Q29mNXhibTRWaEZmTjBhZUZoMnNVY003NzMvUUl5ZjlRdjQvVmZVc0lLOWN4bDVBZXhOcytUdGxyWkZsRjN1UDRBa2R6ZnErYjdLdlRMdFQvd1c2a2VQWXU0aHVTL1Rzcy9RRytCUFN0NUR3N0FYenlJdVA0aDVMdlFBcDlBT1dYeUV1Q2tiNVBoUHlHZ1g5bUpPN3ZmMXNKQ21EOCtxcVl2cEVsZWF4TWNIcDJXd2FHZ1QyYXF2WW1nRHBhb3ZaV2hUc3liZyttTCtodDhBYjlCRDdtTFFUak9EWkU0dEdRd01wejJsbGxWL3Bzanp1WFZvU3FuTEY4clp2TWFUTFBwL2h0V1VYRk0wT1Jvcm1zNGs1VXZPVjdRRlg0ZGVRRnpqTkVqZCtaOXVRMG5MWHdsbGxWQzJ0RGFYMWRJRzk1dzZtODVKdzhFN0ZnMzdDOFdzVmpZNjRkNlN2NXd2cTBhY1BablBHUjdSR3p2OEIzdzhZLzRxQlFBQSJ9 -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["Cr"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["Ni"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["Cu"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["As"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["Cd"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Pb"],"name":[6],"type":["dbl"],"align":["right"]}],"data":[{"1":"106.58","2":"34.35","3":"69.95","4":"9.12","5":"4.43","6":"105.90"},{"1":"104.28","2":"27.10","3":"75.12","4":"13.79","5":"3.82","6":"96.14"},{"1":"89.77","2":"59.33","3":"71.13","4":"26.17","5":"2.95","6":"77.36"},{"1":"71.55","2":"49.17","3":"92.34","4":"25.35","5":"2.36","6":"90.48"},{"1":"100.15","2":"50.68","3":"100.22","4":"28.37","5":"2.10","6":"79.10"},{"1":"86.20","2":"23.32","3":"189.14","4":"14.20","5":"1.50","6":"63.44"},{"1":"105.53","2":"22.18","3":"112.23","4":"21.37","5":"1.36","6":"40.55"},{"1":"18.19","2":"81.17","3":"100.19","4":"12.54","5":"3.69","6":"233.47"},{"1":"17.16","2":"85.22","3":"105.64","4":"14.23","5":"5.14","6":"250.11"},{"1":"13.56","2":"57.59","3":"98.65","4":"19.87","5":"2.90","6":"217.80"},{"1":"93.30","2":"71.63","3":"177.37","4":"12.81","5":"7.10","6":"259.10"},{"1":"118.10","2":"79.25","3":"261.10","4":"9.32","5":"9.10","6":"297.40"},{"1":"17.11","2":"39.41","3":"75.15","4":"7.49","5":"2.31","6":"64.10"},{"1":"12.90","2":"25.78","3":"79.57","4":"8.53","5":"1.53","6":"59.80"},{"1":"80.03","2":"28.10","3":"105.20","4":"20.68","5":"9.11","6":"96.87"},{"1":"62.13","2":"71.22","3":"115.48","4":"19.83","5":"14.93","6":"190.40"},{"1":"58.80","2":"69.53","3":"169.29","4":"21.77","5":"12.70","6":"210.65"}],"options":{"columns":{"min":{},"max":[10],"total":[6]},"rows":{"min":[10],"max":[10],"total":[17]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
