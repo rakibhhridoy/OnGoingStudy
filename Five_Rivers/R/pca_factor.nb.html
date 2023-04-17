@@ -252,10 +252,36 @@ winter</code></pre>
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwod2ludGVyLCBmYWN0b3JzID0gMywgcm90YXRpb24gPSBcInZhcmltYXhcIilcbmZjXG5gYGAifQ== -->
-<pre class="r"><code>fc &lt;- factanal(winter, factors = 3, rotation = &quot;varimax&quot;)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwod2ludGVyLCBmYWN0b3JzID0gMSwgcm90YXRpb24gPSBcInZhcmltYXhcIilcbmZjXG5gYGAifQ== -->
+<pre class="r"><code>fc &lt;- factanal(winter, factors = 1, rotation = &quot;varimax&quot;)
 fc</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5DYWxsOlxuZmFjdGFuYWwoeCA9IHdpbnRlciwgZmFjdG9ycyA9IDEsIHJvdGF0aW9uID0gXCJ2YXJpbWF4XCIpXG5cblVuaXF1ZW5lc3NlczpcbiAgIENyICAgIE5pICAgIEN1ICAgIEFzICAgIENkICAgIFBiIFxuMC45NzQgMC4yNDAgMC42OTMgMC45NTQgMC42ODkgMC4wMDUgXG5cbkxvYWRpbmdzOlxuICAgRmFjdG9yMVxuQ3IgLTAuMTYwIFxuTmkgIDAuODcyIFxuQ3UgIDAuNTU0IFxuQXMgLTAuMjE0IFxuQ2QgIDAuNTU4IFxuUGIgIDAuOTk4IFxuXG4gICAgICAgICAgICAgICBGYWN0b3IxXG5TUyBsb2FkaW5ncyAgICAgIDIuNDQ1XG5Qcm9wb3J0aW9uIFZhciAgIDAuNDA3XG5cblRlc3Qgb2YgdGhlIGh5cG90aGVzaXMgdGhhdCAxIGZhY3RvciBpcyBzdWZmaWNpZW50LlxuVGhlIGNoaSBzcXVhcmUgc3RhdGlzdGljIGlzIDExLjU1IG9uIDkgZGVncmVlcyBvZiBmcmVlZG9tLlxuVGhlIHAtdmFsdWUgaXMgMC4yNCBcbiJ9 -->
+<pre><code>
+Call:
+factanal(x = winter, factors = 1, rotation = &quot;varimax&quot;)
+
+Uniquenesses:
+   Cr    Ni    Cu    As    Cd    Pb 
+0.974 0.240 0.693 0.954 0.689 0.005 
+
+Loadings:
+   Factor1
+Cr -0.160 
+Ni  0.872 
+Cu  0.554 
+As -0.214 
+Cd  0.558 
+Pb  0.998 
+
+               Factor1
+SS loadings      2.445
+Proportion Var   0.407
+
+Test of the hypothesis that 1 factor is sufficient.
+The chi square statistic is 11.55 on 9 degrees of freedom.
+The p-value is 0.24 </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -263,6 +289,21 @@ fc</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMkbG9hZGluZ3NcbmBgYCJ9 -->
 <pre class="r"><code>fc$loadings</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5Mb2FkaW5nczpcbiAgIEZhY3RvcjFcbkNyIC0wLjE2MCBcbk5pICAwLjg3MiBcbkN1ICAwLjU1NCBcbkFzIC0wLjIxNCBcbkNkICAwLjU1OCBcblBiICAwLjk5OCBcblxuICAgICAgICAgICAgICAgRmFjdG9yMVxuU1MgbG9hZGluZ3MgICAgICAyLjQ0NVxuUHJvcG9ydGlvbiBWYXIgICAwLjQwN1xuIn0= -->
+<pre><code>
+Loadings:
+   Factor1
+Cr -0.160 
+Ni  0.872 
+Cu  0.554 
+As -0.214 
+Cd  0.558 
+Pb  0.998 
+
+               Factor1
+SS loadings      2.445
+Proportion Var   0.407</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -274,10 +315,37 @@ fc</code></pre>
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwocmFpbnksIGZhY3RvcnMgPSAzLCByb3RhdGlvbiA9IFwidmFyaW1heFwiKVxuZmNcbmBgYCJ9 -->
-<pre class="r"><code>fc &lt;- factanal(rainy, factors = 3, rotation = &quot;varimax&quot;)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZmMgPC0gZmFjdGFuYWwocmFpbnksIGZhY3RvcnMgPSAxLCByb3RhdGlvbiA9IFwidmFyaW1heFwiKVxuZmNcbmBgYCJ9 -->
+<pre class="r"><code>fc &lt;- factanal(rainy, factors = 1, rotation = &quot;varimax&quot;)
 fc</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5DYWxsOlxuZmFjdGFuYWwoeCA9IHJhaW55LCBmYWN0b3JzID0gMSwgcm90YXRpb24gPSBcInZhcmltYXhcIilcblxuVW5pcXVlbmVzc2VzOlxuICAgIFggICAgQ3IgICAgTmkgICAgQ3UgICAgQXMgICAgQ2QgICAgUGIgXG4wLjc0NiAwLjk5MyAwLjMzNiAwLjQ0NCAwLjk4NiAwLjYxMCAwLjEzOCBcblxuTG9hZGluZ3M6XG4gICBGYWN0b3IxXG5YICAgMC41MDQgXG5DciAgICAgICAgXG5OaSAgMC44MTUgXG5DdSAgMC43NDYgXG5BcyAtMC4xMTggXG5DZCAgMC42MjQgXG5QYiAgMC45MjggXG5cbiAgICAgICAgICAgICAgIEZhY3RvcjFcblNTIGxvYWRpbmdzICAgICAgMi43NDZcblByb3BvcnRpb24gVmFyICAgMC4zOTJcblxuVGVzdCBvZiB0aGUgaHlwb3RoZXNpcyB0aGF0IDEgZmFjdG9yIGlzIHN1ZmZpY2llbnQuXG5UaGUgY2hpIHNxdWFyZSBzdGF0aXN0aWMgaXMgMzUuMzEgb24gMTQgZGVncmVlcyBvZiBmcmVlZG9tLlxuVGhlIHAtdmFsdWUgaXMgMC4wMDEzMiBcbiJ9 -->
+<pre><code>
+Call:
+factanal(x = rainy, factors = 1, rotation = &quot;varimax&quot;)
+
+Uniquenesses:
+    X    Cr    Ni    Cu    As    Cd    Pb 
+0.746 0.993 0.336 0.444 0.986 0.610 0.138 
+
+Loadings:
+   Factor1
+X   0.504 
+Cr        
+Ni  0.815 
+Cu  0.746 
+As -0.118 
+Cd  0.624 
+Pb  0.928 
+
+               Factor1
+SS loadings      2.746
+Proportion Var   0.392
+
+Test of the hypothesis that 1 factor is sufficient.
+The chi square statistic is 35.31 on 14 degrees of freedom.
+The p-value is 0.00132 </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -328,109 +396,234 @@ fc</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShwc3ljaClcbmBgYCJ9 -->
 <pre class="r"><code>require(psych)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBwc3ljaFxuIn0= -->
+<pre><code>Loading required package: psych</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHdpbnRlciwgbmZhY3RvcnMgPSAzLCByb3RhdGUgPSBcInZhcmltYXhcIilcbnBjXG5gYGAifQ== -->
-<pre class="r"><code>pc &lt;- pca(winter, nfactors = 3, rotate = &quot;varimax&quot;)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHdpbnRlciwgbmZhY3RvcnMgPSAxLCByb3RhdGUgPSBcInZhcmltYXhcIilcbnBjXG5gYGAifQ== -->
+<pre class="r"><code>pc &lt;- pca(winter, nfactors = 1, rotate = &quot;varimax&quot;)
 pc</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUHJpbmNpcGFsIENvbXBvbmVudHMgQW5hbHlzaXNcbkNhbGw6IHByaW5jaXBhbChyID0gciwgbmZhY3RvcnMgPSBuZmFjdG9ycywgcmVzaWR1YWxzID0gcmVzaWR1YWxzLCBcbiAgICByb3RhdGUgPSByb3RhdGUsIG4ub2JzID0gbi5vYnMsIGNvdmFyID0gY292YXIsIHNjb3JlcyA9IHNjb3JlcywgXG4gICAgbWlzc2luZyA9IG1pc3NpbmcsIGltcHV0ZSA9IGltcHV0ZSwgb2JsaXF1ZS5zY29yZXMgPSBvYmxpcXVlLnNjb3JlcywgXG4gICAgbWV0aG9kID0gbWV0aG9kLCB1c2UgPSB1c2UsIGNvciA9IGNvciwgY29ycmVjdCA9IDAuNSwgd2VpZ2h0ID0gTlVMTClcblN0YW5kYXJkaXplZCBsb2FkaW5ncyAocGF0dGVybiBtYXRyaXgpIGJhc2VkIHVwb24gY29ycmVsYXRpb24gbWF0cml4XG4ifQ== -->
+<pre><code>Principal Components Analysis
+Call: principal(r = r, nfactors = nfactors, residuals = residuals, 
+    rotate = rotate, n.obs = n.obs, covar = covar, scores = scores, 
+    missing = missing, impute = impute, oblique.scores = oblique.scores, 
+    method = method, use = use, cor = cor, correct = 0.5, weight = NULL)
+Standardized loadings (pattern matrix) based upon correlation matrix</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6NCwibnJvdyI6Nn0sInJkZiI6Ikg0c0lBQUFBQUFBQUF3dHlpVERtaXVCaVlHQmdabUJoQXBLc1FDWURhMmlJbTY0RkExaUVnWkdCaFlFVFJGY0FwWVdCREJZZ0xRQ2syYUFTckxvR2VnYW1NSTZDZ1o2RkdSTEh6QkpKbVNHeWpMa3hFc2ZTRk0wNjF1U2N4T0ppSUVNQVNaREZzZGdUSlBZUGlQbEFUckJQMkIyelQzK09vZjN6bGdVdHhyZVAyZCtUMkhaNTdkZDArNW55dnl1Mi9SR3hmOGhadmEvSk1zWCt6ZmE3enRZbE1uQjk3OSs3TEhhOGtHSi80ZHUrN3pNOFN1d2ZmRjR5VFpQVngvNjlPWU9LbFllOC9kMjNIRTIvZXkzc2R6bUtQbE9KVjBEbyt3OEMvK3cvZ01LSmdSSEsvdy9sTTZDTG8zc3FMekUzRmVZcEZxZ2djNEN6SVpUSmxHRUVZNVhDV016SitibG94bkFXNVpmcklSc0Zpd29tNXlJWXl5OFRMbFlLWXprV3c4VlNZS3lBSklqaFRQL1J3cG9ySmJFa1VTK3RDR2dOSk1SUm5NQ2VYMUNTbVo4SGRBQVRLRTJ3b21sbUxFSVRFQ2pOQXprNFJUYzVvelF2VzlmSURHUURXQjZDZWFFMEd4S2JCV0luTTh4bHJGQ3oyRkx6MGpQelVtRmhtcE9ZbEpvRDVmQUJRd1ljTUhvRlJabDVKVEN2QUVXTDlVcnlTeEpoNnJpUzgzTmdJcERrOUE4QUpnUmhIQXNEQUFBPSJ9 -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["PC1"],"name":[1],"type":["S3: AsIs"],"align":["right"]},{"label":["h2"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["u2"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["com"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"-0.05","2":"0.002042466","3":"0.9979575","4":"1","_rn_":"Cr"},{"1":"0.86","2":"0.734939821","3":"0.2650602","4":"1","_rn_":"Ni"},{"1":"0.69","2":"0.470258433","3":"0.5297416","4":"1","_rn_":"Cu"},{"1":"-0.16","2":"0.024536065","3":"0.9754639","4":"1","_rn_":"As"},{"1":"0.73","2":"0.532407639","3":"0.4675924","4":"1","_rn_":"Cd"},{"1":"0.95","2":"0.897444373","3":"0.1025556","4":"1","_rn_":"Pb"}],"options":{"columns":{"min":{},"max":[10],"total":[4]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG4gICAgICAgICAgICAgICAgUEMxXG5TUyBsb2FkaW5ncyAgICAyLjY2XG5Qcm9wb3J0aW9uIFZhciAwLjQ0XG5cbk1lYW4gaXRlbSBjb21wbGV4aXR5ID0gIDFcblRlc3Qgb2YgdGhlIGh5cG90aGVzaXMgdGhhdCAxIGNvbXBvbmVudCBpcyBzdWZmaWNpZW50LlxuXG5UaGUgcm9vdCBtZWFuIHNxdWFyZSBvZiB0aGUgcmVzaWR1YWxzIChSTVNSKSBpcyAgMC4xNyBcbiB3aXRoIHRoZSBlbXBpcmljYWwgY2hpIHNxdWFyZSAgMTUuMDggIHdpdGggcHJvYiA8ICAwLjA4OSBcblxuRml0IGJhc2VkIHVwb24gb2ZmIGRpYWdvbmFsIHZhbHVlcyA9IDAuOFxuIn0= -->
+<pre><code>
+                PC1
+SS loadings    2.66
+Proportion Var 0.44
+
+Mean item complexity =  1
+Test of the hypothesis that 1 component is sufficient.
+
+The root mean square of the residuals (RMSR) is  0.17 
+ with the empirical chi square  15.08  with prob &lt;  0.089 
+
+Fit based upon off diagonal values = 0.8</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMkd2VpZ2h0c1sxLF1cbmBgYCJ9 -->
-<pre class="r"><code>pc$weights[1,]</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShmYWN0b2V4dHJhKVxucmVxdWlyZShGYWN0b01pbmVSKVxuYGBgIn0= -->
-<pre class="r"><code>require(factoextra)
-require(FactoMineR)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZSh3aW50ZXIpLCBncmFwaCA9IEZBTFNFLCBuY3AgPSAzLCAgc2NhbGUudW5pdCA9IFRSVUUpXG5laWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpXG5laWcudmFsXG5gYGAifQ== -->
-<pre class="r"><code>sample2 &lt;- PCA(data.frame(winter), graph = FALSE, ncp = 3,  scale.unit = TRUE)
-eig.val &lt;- get_eigenvalue(sample2)
-eig.val</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZShyYWlueSksIGdyYXBoID0gRkFMU0UsIG5jcCA9IDMsICBzY2FsZS51bml0ID0gVFJVRSlcbmVpZy52YWwgPC0gZ2V0X2VpZ2VudmFsdWUoc2FtcGxlMilcbmVpZy52YWxcbmBgYCJ9 -->
-<pre class="r"><code>sample2 &lt;- PCA(data.frame(rainy), graph = FALSE, ncp = 3,  scale.unit = TRUE)
-eig.val &lt;- get_eigenvalue(sample2)
-eig.val</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3IgPC0gbWF4KHBjJHdlaWdodHNbMSxdKVxubmkgPC0gbWF4KHBjJHdlaWdodHNbMixdKVxuY3UgPC0gbWF4KHBjJHdlaWdodHNbMyxdKVxuYXMgPC0gbWF4KHBjJHdlaWdodHNbNCxdKVxuY2QgPC0gbWF4KHBjJHdlaWdodHNbNSxdKVxucGIgPC0gbWF4KHBjJHdlaWdodHNbNixdKVxuYGBgIn0= -->
-<pre class="r"><code>cr &lt;- max(pc$weights[1,])
-ni &lt;- max(pc$weights[2,])
-cu &lt;- max(pc$weights[3,])
-as &lt;- max(pc$weights[4,])
-cd &lt;- max(pc$weights[5,])
-pb &lt;- max(pc$weights[6,])</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3Jcbm5pXG5jdVxuYXNcbmNkXG5wYlxuYGBgIn0= -->
-<pre class="r"><code>cr
-ni
-cu
-as
-cd
-pb</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWVhbihwYyR3ZWlnaHRzWzEsXSlcbmBgYCJ9 -->
-<pre class="r"><code>mean(pc$weights[1,])</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KHBjJGxvYWRpbmdzLCBcIlBDQV9sb2FkaW5nX1dpbnRlci5jc3ZcIilcbmBgYCJ9 -->
-<pre class="r"><code>write.csv(pc$loadings, &quot;PCA_loading_Winter.csv&quot;)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHJhaW55LCBuZmFjdG9ycyA9IDMsIHJvdGF0ZSA9IFwidmFyaW1heFwiKVxucGNcbmBgYCJ9 -->
-<pre class="r"><code>pc &lt;- pca(rainy, nfactors = 3, rotate = &quot;varimax&quot;)
-pc</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KHBjJGxvYWRpbmdzLCBcIlBDQV9sb2FkaW5nX3JhaW55LmNzdlwiKVxuXG5gYGAifQ== -->
-<pre class="r"><code>write.csv(pc$loadings, &quot;PCA_loading_rainy.csv&quot;)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMkd2VpZ2h0c1sxLF1cblxuYGBgIn0= -->
+<pre class="r"><code>pc$weights[1,]
 </code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIC0wLjAxNjk3OTdcbiJ9 -->
+<pre><code>[1] -0.0169797</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShmYWN0b2V4dHJhKVxuYGBgIn0= -->
+<pre class="r"><code>require(factoextra)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBmYWN0b2V4dHJhXG5Mb2FkaW5nIHJlcXVpcmVkIHBhY2thZ2U6IGdncGxvdDJcbk5lZWQgaGVscCBnZXR0aW5nIHN0YXJ0ZWQ/IFRyeSB0aGUgUiBHcmFwaGljcyBDb29rYm9vazogaHR0cHM6Ly9yLWdyYXBoaWNzLm9yZ1xuXG5BdHRhY2hpbmcgcGFja2FnZTog4oCYZ2dwbG90MuKAmVxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIOKAmHBhY2thZ2U6cHN5Y2jigJk6XG5cbiAgICAlKyUsIGFscGhhXG5cbldlbGNvbWUhIFdhbnQgdG8gbGVhcm4gbW9yZT8gU2VlIHR3byBmYWN0b2V4dHJhLXJlbGF0ZWQgYm9va3MgYXQgaHR0cHM6Ly9nb28uZ2wvdmUzV0JhXG4ifQ== -->
+<pre><code>Loading required package: factoextra
+Loading required package: ggplot2
+Need help getting started? Try the R Graphics Cookbook: https://r-graphics.org
+
+Attaching package: ‘ggplot2’
+
+The following objects are masked from ‘package:psych’:
+
+    %+%, alpha
+
+Welcome! Want to learn more? See two factoextra-related books at https://goo.gl/ve3WBa</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucmVxdWlyZShGYWN0b01pbmVSKVxuYGBgIn0= -->
+<pre class="r"><code>require(FactoMineR)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTG9hZGluZyByZXF1aXJlZCBwYWNrYWdlOiBGYWN0b01pbmVSXG5SZWdpc3RlcmVkIFMzIG1ldGhvZHMgb3ZlcndyaXR0ZW4gYnkgJ2h0bWx0b29scyc6XG4gIG1ldGhvZCAgICAgICAgICAgICAgIGZyb20gICAgICAgICBcbiAgcHJpbnQuaHRtbCAgICAgICAgICAgdG9vbHM6cnN0dWRpb1xuICBwcmludC5zaGlueS50YWcgICAgICB0b29sczpyc3R1ZGlvXG4gIHByaW50LnNoaW55LnRhZy5saXN0IHRvb2xzOnJzdHVkaW9cblJlZ2lzdGVyZWQgUzMgbWV0aG9kIG92ZXJ3cml0dGVuIGJ5ICdodG1sd2lkZ2V0cyc6XG4gIG1ldGhvZCAgICAgICAgICAgZnJvbSAgICAgICAgIFxuICBwcmludC5odG1sd2lkZ2V0IHRvb2xzOnJzdHVkaW9cbiJ9 -->
+<pre><code>Loading required package: FactoMineR
+Registered S3 methods overwritten by &#39;htmltools&#39;:
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+Registered S3 method overwritten by &#39;htmlwidgets&#39;:
+  method           from         
+  print.htmlwidget tools:rstudio</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZSh3aW50ZXIpLCBncmFwaCA9IEZBTFNFLCBuY3AgPSAxLHNjYWxlLnVuaXQgPSBUUlVFKVxuZWlnLnZhbCA8LSBnZXRfZWlnZW52YWx1ZShzYW1wbGUyKVxuZWlnLnZhbFxuYGBgIn0= -->
+<pre class="r"><code>sample2 &lt;- PCA(data.frame(winter), graph = FALSE, ncp = 1,scale.unit = TRUE)
+eig.val &lt;- get_eigenvalue(sample2)
+eig.val</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgZWlnZW52YWx1ZSB2YXJpYW5jZS5wZXJjZW50IGN1bXVsYXRpdmUudmFyaWFuY2UucGVyY2VudFxuRGltLjEgMi42NjE2Mjg4MCAgICAgICAgNDQuMzYwNDgwICAgICAgICAgICAgICAgICAgICA0NC4zNjA0OFxuRGltLjIgMS4zOTE5NDUxMSAgICAgICAgMjMuMTk5MDg1ICAgICAgICAgICAgICAgICAgICA2Ny41NTk1N1xuRGltLjMgMS4wNTIzNDA2MSAgICAgICAgMTcuNTM5MDEwICAgICAgICAgICAgICAgICAgICA4NS4wOTg1OFxuRGltLjQgMC41MjQzNjUxMSAgICAgICAgIDguNzM5NDE4ICAgICAgICAgICAgICAgICAgICA5My44Mzc5OVxuRGltLjUgMC4yOTk2NDAxNyAgICAgICAgIDQuOTk0MDAzICAgICAgICAgICAgICAgICAgICA5OC44MzIwMFxuRGltLjYgMC4wNzAwODAxOSAgICAgICAgIDEuMTY4MDAzICAgICAgICAgICAgICAgICAgIDEwMC4wMDAwMFxuIn0= -->
+<pre><code>      eigenvalue variance.percent cumulative.variance.percent
+Dim.1 2.66162880        44.360480                    44.36048
+Dim.2 1.39194511        23.199085                    67.55957
+Dim.3 1.05234061        17.539010                    85.09858
+Dim.4 0.52436511         8.739418                    93.83799
+Dim.5 0.29964017         4.994003                    98.83200
+Dim.6 0.07008019         1.168003                   100.00000</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZShyYWlueSksIGdyYXBoID0gRkFMU0UsIG5jcCA9IDEsc2NhbGUudW5pdCA9IFRSVUUpXG5laWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpXG5laWcudmFsXG5gYGAifQ== -->
+<pre class="r"><code>sample2 &lt;- PCA(data.frame(rainy), graph = FALSE, ncp = 1,scale.unit = TRUE)
+eig.val &lt;- get_eigenvalue(sample2)
+eig.val</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgZWlnZW52YWx1ZSB2YXJpYW5jZS5wZXJjZW50IGN1bXVsYXRpdmUudmFyaWFuY2UucGVyY2VudFxuRGltLjEgMy4yMTM5NDMzMCAgICAgICAgNDUuOTEzNDc2ICAgICAgICAgICAgICAgICAgICA0NS45MTM0OFxuRGltLjIgMS4zNTAwNzc2MCAgICAgICAgMTkuMjg2ODIzICAgICAgICAgICAgICAgICAgICA2NS4yMDAzMFxuRGltLjMgMS4wMDY1MTQ2MyAgICAgICAgMTQuMzc4NzgwICAgICAgICAgICAgICAgICAgICA3OS41NzkwOFxuRGltLjQgMC43NjQ2ODczNyAgICAgICAgMTAuOTI0MTA1ICAgICAgICAgICAgICAgICAgICA5MC41MDMxOFxuRGltLjUgMC40NTUwODk4NSAgICAgICAgIDYuNTAxMjg0ICAgICAgICAgICAgICAgICAgICA5Ny4wMDQ0N1xuRGltLjYgMC4xODk2MjQwMSAgICAgICAgIDIuNzA4OTE0ICAgICAgICAgICAgICAgICAgICA5OS43MTMzOFxuRGltLjcgMC4wMjAwNjMyNiAgICAgICAgIDAuMjg2NjE4ICAgICAgICAgICAgICAgICAgIDEwMC4wMDAwMFxuIn0= -->
+<pre><code>      eigenvalue variance.percent cumulative.variance.percent
+Dim.1 3.21394330        45.913476                    45.91348
+Dim.2 1.35007760        19.286823                    65.20030
+Dim.3 1.00651463        14.378780                    79.57908
+Dim.4 0.76468737        10.924105                    90.50318
+Dim.5 0.45508985         6.501284                    97.00447
+Dim.6 0.18962401         2.708914                    99.71338
+Dim.7 0.02006326         0.286618                   100.00000</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMkd2VpZ2h0c1xuYGBgIn0= -->
+<pre class="r"><code>pc$weights</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICBQQzFcbkNyIC0wLjAxNjk3OTcwXG5OaSAgMC4zMjIwOTA4NlxuQ3UgIDAuMjU3NjQ0NDZcbkFzIC0wLjA1ODg1MTE1XG5DZCAgMC4yNzQxNDE0MlxuUGIgIDAuMzU1OTIzMTlcbiJ9 -->
+<pre><code>           PC1
+Cr -0.01697970
+Ni  0.32209086
+Cu  0.25764446
+As -0.05885115
+Cd  0.27414142
+Pb  0.35592319</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxud3JpdGUuY3N2KHBjJGxvYWRpbmdzLCBcIlBDQV9sb2FkaW5nX1dpbnRlci5jc3ZcIilcbndyaXRlLmNzdihwYyR3ZWlnaHRzLCBcIlBDQV93ZWlnaHRfV2ludGVyLmNzdlwiKVxuYGBgIn0= -->
+<pre class="r"><code>write.csv(pc$loadings, &quot;PCA_loading_Winter.csv&quot;)
+write.csv(pc$weights, &quot;PCA_weight_Winter.csv&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMgPC0gcGNhKHJhaW55LCBuZmFjdG9ycyA9IDEsIHJvdGF0ZSA9IFwidmFyaW1heFwiKVxucGNcbmBgYCJ9 -->
+<pre class="r"><code>pc &lt;- pca(rainy, nfactors = 1, rotate = &quot;varimax&quot;)
+pc</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUHJpbmNpcGFsIENvbXBvbmVudHMgQW5hbHlzaXNcbkNhbGw6IHByaW5jaXBhbChyID0gciwgbmZhY3RvcnMgPSBuZmFjdG9ycywgcmVzaWR1YWxzID0gcmVzaWR1YWxzLCBcbiAgICByb3RhdGUgPSByb3RhdGUsIG4ub2JzID0gbi5vYnMsIGNvdmFyID0gY292YXIsIHNjb3JlcyA9IHNjb3JlcywgXG4gICAgbWlzc2luZyA9IG1pc3NpbmcsIGltcHV0ZSA9IGltcHV0ZSwgb2JsaXF1ZS5zY29yZXMgPSBvYmxpcXVlLnNjb3JlcywgXG4gICAgbWV0aG9kID0gbWV0aG9kLCB1c2UgPSB1c2UsIGNvciA9IGNvciwgY29ycmVjdCA9IDAuNSwgd2VpZ2h0ID0gTlVMTClcblN0YW5kYXJkaXplZCBsb2FkaW5ncyAocGF0dGVybiBtYXRyaXgpIGJhc2VkIHVwb24gY29ycmVsYXRpb24gbWF0cml4XG4ifQ== -->
+<pre><code>Principal Components Analysis
+Call: principal(r = r, nfactors = nfactors, residuals = residuals, 
+    rotate = rotate, n.obs = n.obs, covar = covar, scores = scores, 
+    missing = missing, impute = impute, oblique.scores = oblique.scores, 
+    method = method, use = use, cor = cor, correct = 0.5, weight = NULL)
+Standardized loadings (pattern matrix) based upon correlation matrix</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6NCwibnJvdyI6N30sInJkZiI6Ikg0c0lBQUFBQUFBQUF3dHlpVERtaXVCaVlHQmdabUJoQXBLc1FDWURhMmlJbTY0RkExaUVnWkdCaFlFVFJGY0FwWVdCREJZZ0xRQ2syYUVTckFvR2V1WW1NSTZ1Z1o2aE9aS01oUW15TWxOa1pVYklNaGJJZXN6UjdHWk56a2tzTGdZeUJKQUVXUnlMUFVGaS80Q1lEK1FlKzRmZXh2d3FQU2ZzNTNMZVRrejR0TW4rV1lhWmlPVjJidnRIY3BwbTkzNU5zKy9XQzVsWDZ2dlIvbkd3UU5JRVh3ZjdGM0ZmTmo5MlRJZnJ2NXM1OCtHMlp3WDI3OFUzcW56NWtXVi9XWC95OVo2SnIreHZIMTQ3eVlucml2Mzd5VzVyMjdSTzJOK012RzkxUDdYQi9seUxya0hScnhTNC92Zi9RZUNmL1FjR01JRFQ2T0lRL244b254SGRzM21KdWFrd3o3SkFCWmtEbkEyaFRLWU1XTUF4bGNKWXpNbjV1V2pHY0JibGwrc2hHd1dMTDhZSW1IYm5JaGpMTHhNdVZncGpPUmJEeFZKZ3JJQWtpQzFNLzlFaWd5c2xzU1JSTDYwSWFCOGtTbERjd3A1ZlVKS1pud2QwQ1JNb0JiR2lhV1lzUWhNUUtNMER1VHhGTnptak5DOWIxOGdZWkFNa3FNQ1lGMHF6STdGWklIWXl3MXpHQ2pXTExUVXZQVE12RlJhNE9ZbEpxVGxRRGg4d2lNQWhwRmRRbEpsWEF2TUtVTFJZcnlTL0pCR21qaXM1UHdjbUFrbHYvd0JWU0w2S09RTUFBQT09In0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["PC1"],"name":[1],"type":["S3: AsIs"],"align":["right"]},{"label":["h2"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["u2"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["com"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"0.74","2":"0.54042962","3":"0.4595704","4":"1","_rn_":"X"},{"1":"-0.17","2":"0.02835791","3":"0.9716421","4":"1","_rn_":"Cr"},{"1":"0.84","2":"0.70022110","3":"0.2997789","4":"1","_rn_":"Ni"},{"1":"0.75","2":"0.56618176","3":"0.4338182","4":"1","_rn_":"Cu"},{"1":"-0.12","2":"0.01327196","3":"0.9867280","4":"1","_rn_":"As"},{"1":"0.78","2":"0.60388965","3":"0.3961104","4":"1","_rn_":"Cd"},{"1":"0.87","2":"0.76159129","3":"0.2384087","4":"1","_rn_":"Pb"}],"options":{"columns":{"min":{},"max":[10],"total":[4]},"rows":{"min":[10],"max":[10],"total":[7]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG4gICAgICAgICAgICAgICAgUEMxXG5TUyBsb2FkaW5ncyAgICAzLjIxXG5Qcm9wb3J0aW9uIFZhciAwLjQ2XG5cbk1lYW4gaXRlbSBjb21wbGV4aXR5ID0gIDFcblRlc3Qgb2YgdGhlIGh5cG90aGVzaXMgdGhhdCAxIGNvbXBvbmVudCBpcyBzdWZmaWNpZW50LlxuXG5UaGUgcm9vdCBtZWFuIHNxdWFyZSBvZiB0aGUgcmVzaWR1YWxzIChSTVNSKSBpcyAgMC4xNiBcbiB3aXRoIHRoZSBlbXBpcmljYWwgY2hpIHNxdWFyZSAgMTcuNzQgIHdpdGggcHJvYiA8ICAwLjIyIFxuXG5GaXQgYmFzZWQgdXBvbiBvZmYgZGlhZ29uYWwgdmFsdWVzID0gMC44NVxuIn0= -->
+<pre><code>
+                PC1
+SS loadings    3.21
+Proportion Var 0.46
+
+Mean item complexity =  1
+Test of the hypothesis that 1 component is sufficient.
+
+The root mean square of the residuals (RMSR) is  0.16 
+ with the empirical chi square  17.74  with prob &lt;  0.22 
+
+Fit based upon off diagonal values = 0.85</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGMkd2VpZ2h0c1xuYGBgIn0= -->
+<pre class="r"><code>pc$weights</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiICAgICAgICAgICBQQzFcblggICAwLjIyODczNDM0XG5DciAtMC4wNTIzOTYxMFxuTmkgIDAuMjYwMzYzMDdcbkN1ICAwLjIzNDEyMDY1XG5BcyAtMC4wMzU4NDUwNlxuQ2QgIDAuMjQxNzkxMjVcblBiICAwLjI3MTUzMzEwXG4ifQ== -->
+<pre><code>           PC1
+X   0.22873434
+Cr -0.05239610
+Ni  0.26036307
+Cu  0.23412065
+As -0.03584506
+Cd  0.24179125
+Pb  0.27153310</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -550,7 +743,7 @@ pc</code></pre>
 <p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gCgpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIAoKYGBge3J9CndpbnRlciA9IHJlYWQuY3N2KCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3YiKQpyYWlueSA9ICByZWFkLmNzdigiL2hvbWUvUkhITGFiL1Jlc2VhcmNoL0ZpdmVfUml2ZXJzL1B5dGhvbi9yYWlueS5jc3YiKQpgYGAKCmBgYHtyfQp3aW50ZXIgPC0gd2ludGVyWywtMV0Kd2ludGVyCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHdpbnRlciwgZmFjdG9ycyA9IDMsIHJvdGF0aW9uID0gInZhcmltYXgiKQpmYwpgYGAKCmBgYHtyfQpmYyRsb2FkaW5ncwpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfV2ludGVyLmNzdiIpCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHJhaW55LCBmYWN0b3JzID0gMywgcm90YXRpb24gPSAidmFyaW1heCIpCmZjCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfcmFpbnkuY3N2IikKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQpyZXF1aXJlKHBzeWNoKQpgYGAKCmBgYHtyfQpwYyA8LSBwY2Eod2ludGVyLCBuZmFjdG9ycyA9IDMsIHJvdGF0ZSA9ICJ2YXJpbWF4IikKcGMKYGBgCgpgYGB7cn0KcGMkd2VpZ2h0c1sxLF0KYGBgCgpgYGB7cn0KcmVxdWlyZShmYWN0b2V4dHJhKQpyZXF1aXJlKEZhY3RvTWluZVIpCmBgYAoKYGBge3J9CnNhbXBsZTIgPC0gUENBKGRhdGEuZnJhbWUod2ludGVyKSwgZ3JhcGggPSBGQUxTRSwgbmNwID0gMywgIHNjYWxlLnVuaXQgPSBUUlVFKQplaWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpCmVpZy52YWwKYGBgCgpgYGB7cn0Kc2FtcGxlMiA8LSBQQ0EoZGF0YS5mcmFtZShyYWlueSksIGdyYXBoID0gRkFMU0UsIG5jcCA9IDMsICBzY2FsZS51bml0ID0gVFJVRSkKZWlnLnZhbCA8LSBnZXRfZWlnZW52YWx1ZShzYW1wbGUyKQplaWcudmFsCmBgYAoKYGBge3J9CmNyIDwtIG1heChwYyR3ZWlnaHRzWzEsXSkKbmkgPC0gbWF4KHBjJHdlaWdodHNbMixdKQpjdSA8LSBtYXgocGMkd2VpZ2h0c1szLF0pCmFzIDwtIG1heChwYyR3ZWlnaHRzWzQsXSkKY2QgPC0gbWF4KHBjJHdlaWdodHNbNSxdKQpwYiA8LSBtYXgocGMkd2VpZ2h0c1s2LF0pCmBgYAoKYGBge3J9CmNyCm5pCmN1CmFzCmNkCnBiCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KbWVhbihwYyR3ZWlnaHRzWzEsXSkKYGBgCgpgYGB7cn0Kd3JpdGUuY3N2KHBjJGxvYWRpbmdzLCAiUENBX2xvYWRpbmdfV2ludGVyLmNzdiIpCmBgYAoKYGBge3J9CnBjIDwtIHBjYShyYWlueSwgbmZhY3RvcnMgPSAzLCByb3RhdGUgPSAidmFyaW1heCIpCnBjCmBgYAoKYGBge3J9CndyaXRlLmNzdihwYyRsb2FkaW5ncywgIlBDQV9sb2FkaW5nX3JhaW55LmNzdiIpCgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouCgpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4KClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4K</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gCgpUcnkgZXhlY3V0aW5nIHRoaXMgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpSdW4qIGJ1dHRvbiB3aXRoaW4gdGhlIGNodW5rIG9yIGJ5IHBsYWNpbmcgeW91ciBjdXJzb3IgaW5zaWRlIGl0IGFuZCBwcmVzc2luZyAqQ3RybCtTaGlmdCtFbnRlciouIAoKYGBge3J9CndpbnRlciA9IHJlYWQuY3N2KCIvaG9tZS9SSEhMYWIvUmVzZWFyY2gvRml2ZV9SaXZlcnMvUHl0aG9uL3dpbnRlci5jc3YiKQpyYWlueSA9ICByZWFkLmNzdigiL2hvbWUvUkhITGFiL1Jlc2VhcmNoL0ZpdmVfUml2ZXJzL1B5dGhvbi9yYWlueS5jc3YiKQpgYGAKCmBgYHtyfQp3aW50ZXIgPC0gd2ludGVyWywtMV0Kd2ludGVyCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHdpbnRlciwgZmFjdG9ycyA9IDEsIHJvdGF0aW9uID0gInZhcmltYXgiKQpmYwpgYGAKCmBgYHtyfQpmYyRsb2FkaW5ncwpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfV2ludGVyLmNzdiIpCmBgYAoKYGBge3J9CmZjIDwtIGZhY3RhbmFsKHJhaW55LCBmYWN0b3JzID0gMSwgcm90YXRpb24gPSAidmFyaW1heCIpCmZjCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQp3cml0ZS5jc3YoZmMkbG9hZGluZ3MsICJGYWN0b3JfbG9hZGluZ3NfcmFpbnkuY3N2IikKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQpyZXF1aXJlKHBzeWNoKQpgYGAKCmBgYHtyfQpwYyA8LSBwY2Eod2ludGVyLCBuZmFjdG9ycyA9IDEsIHJvdGF0ZSA9ICJ2YXJpbWF4IikKcGMKYGBgCgpgYGB7cn0KcGMkd2VpZ2h0c1sxLF0KYGBgCgpgYGB7cn0KcmVxdWlyZShmYWN0b2V4dHJhKQpyZXF1aXJlKEZhY3RvTWluZVIpCmBgYAoKYGBge3J9CnNhbXBsZTIgPC0gUENBKGRhdGEuZnJhbWUod2ludGVyKSwgZ3JhcGggPSBGQUxTRSwgbmNwID0gMSxzY2FsZS51bml0ID0gVFJVRSkKZWlnLnZhbCA8LSBnZXRfZWlnZW52YWx1ZShzYW1wbGUyKQplaWcudmFsCmBgYAoKYGBge3J9CnNhbXBsZTIgPC0gUENBKGRhdGEuZnJhbWUocmFpbnkpLCBncmFwaCA9IEZBTFNFLCBuY3AgPSAxLHNjYWxlLnVuaXQgPSBUUlVFKQplaWcudmFsIDwtIGdldF9laWdlbnZhbHVlKHNhbXBsZTIpCmVpZy52YWwKYGBgCgpgYGB7cn0KcGMkd2VpZ2h0cwpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCgpgYGB7cn0Kd3JpdGUuY3N2KHBjJGxvYWRpbmdzLCAiUENBX2xvYWRpbmdfV2ludGVyLmNzdiIpCndyaXRlLmNzdihwYyR3ZWlnaHRzLCAiUENBX3dlaWdodF9XaW50ZXIuY3N2IikKYGBgCgpgYGB7cn0KcGMgPC0gcGNhKHJhaW55LCBuZmFjdG9ycyA9IDEsIHJvdGF0ZSA9ICJ2YXJpbWF4IikKcGMKYGBgCgpgYGB7cn0KcGMkd2VpZ2h0cwpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQp3cml0ZS5jc3YocGMkd2VpZ2h0cywgIlBDQV93ZWlnaHRzX3JhaW55LmNzdiIpCgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpgYGB7cn0KCmBgYAoKYGBge3J9CgpgYGAKCmBgYHtyfQoKYGBgCgpBZGQgYSBuZXcgY2h1bmsgYnkgY2xpY2tpbmcgdGhlICpJbnNlcnQgQ2h1bmsqIGJ1dHRvbiBvbiB0aGUgdG9vbGJhciBvciBieSBwcmVzc2luZyAqQ3RybCtBbHQrSSouCgpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4KClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4K</div>
 
 
 

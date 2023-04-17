@@ -18,7 +18,7 @@ winter
 ```
 
 ```{r}
-fc <- factanal(winter, factors = 3, rotation = "varimax")
+fc <- factanal(winter, factors = 1, rotation = "varimax")
 fc
 ```
 
@@ -31,7 +31,7 @@ write.csv(fc$loadings, "Factor_loadings_Winter.csv")
 ```
 
 ```{r}
-fc <- factanal(rainy, factors = 3, rotation = "varimax")
+fc <- factanal(rainy, factors = 1, rotation = "varimax")
 fc
 ```
 
@@ -80,7 +80,7 @@ require(psych)
 ```
 
 ```{r}
-pc <- pca(winter, nfactors = 3, rotate = "varimax")
+pc <- pca(winter, nfactors = 1, rotate = "varimax")
 pc
 ```
 
@@ -94,33 +94,19 @@ require(FactoMineR)
 ```
 
 ```{r}
-sample2 <- PCA(data.frame(winter), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+sample2 <- PCA(data.frame(winter), graph = FALSE, ncp = 1,scale.unit = TRUE)
 eig.val <- get_eigenvalue(sample2)
 eig.val
 ```
 
 ```{r}
-sample2 <- PCA(data.frame(rainy), graph = FALSE, ncp = 3,  scale.unit = TRUE)
+sample2 <- PCA(data.frame(rainy), graph = FALSE, ncp = 1,scale.unit = TRUE)
 eig.val <- get_eigenvalue(sample2)
 eig.val
 ```
 
 ```{r}
-cr <- max(pc$weights[1,])
-ni <- max(pc$weights[2,])
-cu <- max(pc$weights[3,])
-as <- max(pc$weights[4,])
-cd <- max(pc$weights[5,])
-pb <- max(pc$weights[6,])
-```
-
-```{r}
-cr
-ni
-cu
-as
-cd
-pb
+pc$weights
 ```
 
 ```{r}
@@ -132,20 +118,38 @@ pb
 ```
 
 ```{r}
-mean(pc$weights[1,])
+
 ```
+
 
 ```{r}
 write.csv(pc$loadings, "PCA_loading_Winter.csv")
+write.csv(pc$weights, "PCA_weight_Winter.csv")
 ```
 
 ```{r}
-pc <- pca(rainy, nfactors = 3, rotate = "varimax")
+pc <- pca(rainy, nfactors = 1, rotate = "varimax")
 pc
 ```
 
 ```{r}
-write.csv(pc$loadings, "PCA_loading_rainy.csv")
+pc$weights
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+write.csv(pc$weights, "PCA_weights_rainy.csv")
 
 ```
 
