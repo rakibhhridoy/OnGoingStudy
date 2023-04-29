@@ -207,7 +207,7 @@ ggplot(df, aes(1, THB, fill = Season, color = Season)) +
 ```
 
 ```{r}
-
+?ylab()
 ```
 
 ```{r}
@@ -224,7 +224,11 @@ ggplot(df, aes(1, THB, fill = Season, color = Season)) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
   scale_color_brewer(palette = 'Dark2')+
-  xlab("") + 
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(a)") + 
   ylab("Total Heterotrophic Bacteria (value × 10^4 cfu/ml)")
 ```
 
@@ -238,7 +242,11 @@ ggplot(df, aes(1, TC, fill = Season, color = Season)) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
   scale_color_brewer(palette = 'Dark2') +
-  xlab("") + 
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(b)") + 
   ylab("Total coliform (MPN× 10^4/100ml water)")
 ```
 
@@ -251,8 +259,12 @@ ggplot(df, aes(1, FC, fill = Season, color = Season)) +
             )) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
-  scale_color_brewer(palette = 'Dark2') +
-  xlab("") + 
+  scale_color_brewer(palette = 'Dark2')  +
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(c)") + 
   ylab("Fecal coliform (MPN× 10^3/100ml water)")
 ```
 
@@ -265,8 +277,12 @@ ggplot(df, aes(1, FS, fill = Season, color = Season)) +
             )) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
-  scale_color_brewer(palette = 'Dark2') +
-  xlab("") + 
+  scale_color_brewer(palette = 'Dark2')  +
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(d)") + 
   ylab("Fecal streptococci (MPN× 10^3/100ml)")
 ```
 
@@ -279,8 +295,12 @@ ggplot(df, aes(1, Vibrio.C, fill = Season, color = Season)) +
             )) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
-  scale_color_brewer(palette = 'Dark2') +
-  xlab("") + 
+  scale_color_brewer(palette = 'Dark2')  +
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(e)") + 
   ylab("Vibrio cholerae (value × 10^3 cfu/ml)")
 ```
 
@@ -293,8 +313,12 @@ ggplot(df, aes(1, E.Coli, fill = Season, color = Season)) +
             )) +
   theme_classic() +
   scale_fill_brewer(palette = 'Dark2') +
-  scale_color_brewer(palette = 'Dark2') +
-  xlab("") + 
+  scale_color_brewer(palette = 'Dark2')  +
+  theme(axis.text=element_text(size=12, face = "bold"),
+        axis.title=element_text(size=14,face="bold"), 
+        axis.text.x=element_text(size=10, face = "bold"),
+        axis.text.y=element_text(size=10, face = "bold"))+
+  xlab("(f)") + 
   ylab("Escherichia coli (value× 10^2 cfu/100ml)")
 ```
 
