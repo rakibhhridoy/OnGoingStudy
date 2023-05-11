@@ -1,449 +1,449 @@
-,Unnamed: 0,Values,Metals,Param,Age,*
-0,0,,Cr,EDI,Child,EDI Child
-1,1,6.93,Cr,EDI,Child,EDI Child
-2,2,2.415,Cr,EDI,Child,EDI Child
-3,3,3.955,Cr,EDI,Child,EDI Child
-4,4,3.325,Cr,EDI,Child,EDI Child
-5,5,3.57,Cr,EDI,Child,EDI Child
-6,6,4.76,Cr,EDI,Child,EDI Child
-7,7,8.295,Cr,EDI,Child,EDI Child
-8,8,,Cr,EDI,Adult,EDI Adult
-9,9,1.569,Cr,EDI,Adult,EDI Adult
-10,10,0.547,Cr,EDI,Adult,EDI Adult
-11,11,0.895,Cr,EDI,Adult,EDI Adult
-12,12,0.753,Cr,EDI,Adult,EDI Adult
-13,13,0.808,Cr,EDI,Adult,EDI Adult
-14,14,1.078,Cr,EDI,Adult,EDI Adult
-15,15,1.879,Cr,EDI,Adult,EDI Adult
-16,16,1.225,Mn,EDI,Child,EDI Child
-17,17,6.23,Mn,EDI,Child,EDI Child
-18,18,5.705,Mn,EDI,Child,EDI Child
-19,19,3.255,Mn,EDI,Child,EDI Child
-20,20,1.715,Mn,EDI,Child,EDI Child
-21,21,5.775,Mn,EDI,Child,EDI Child
-22,22,1.47,Mn,EDI,Child,EDI Child
-23,23,2.59,Mn,EDI,Child,EDI Child
-24,24,0.277,Mn,EDI,Adult,EDI Adult
-25,25,1.411,Mn,EDI,Adult,EDI Adult
-26,26,1.292,Mn,EDI,Adult,EDI Adult
-27,27,0.737,Mn,EDI,Adult,EDI Adult
-28,28,0.388,Mn,EDI,Adult,EDI Adult
-29,29,1.308,Mn,EDI,Adult,EDI Adult
-30,30,0.333,Mn,EDI,Adult,EDI Adult
-31,31,0.586,Mn,EDI,Adult,EDI Adult
-32,32,152.32,Fe,EDI,Child,EDI Child
-33,33,466.0,Fe,EDI,Child,EDI Child
-34,34,369.15,Fe,EDI,Child,EDI Child
-35,35,33.03,Fe,EDI,Child,EDI Child
-36,36,293.965,Fe,EDI,Child,EDI Child
-37,37,400.085,Fe,EDI,Child,EDI Child
-38,38,272.475,Fe,EDI,Child,EDI Child
-39,39,315.42,Fe,EDI,Child,EDI Child
-40,40,34.505,Fe,EDI,Adult,EDI Adult
-41,41,105.65,Fe,EDI,Adult,EDI Adult
-42,42,83.622,Fe,EDI,Adult,EDI Adult
-43,43,74.988,Fe,EDI,Adult,EDI Adult
-44,44,66.592,Fe,EDI,Adult,EDI Adult
-45,45,90.632,Fe,EDI,Adult,EDI Adult
-46,46,61.723,Fe,EDI,Adult,EDI Adult
-47,47,71.452,Fe,EDI,Adult,EDI Adult
-48,48,12.215,Co,EDI,Child,EDI Child
-49,49,16.695,Co,EDI,Child,EDI Child
-50,50,4.445,Co,EDI,Child,EDI Child
-51,51,10.675,Co,EDI,Child,EDI Child
-52,52,9.38,Co,EDI,Child,EDI Child
-53,53,12.32,Co,EDI,Child,EDI Child
-54,54,12.635,Co,EDI,Child,EDI Child
-55,55,17.955,Co,EDI,Child,EDI Child
-56,56,2.767,Co,EDI,Adult,EDI Adult
-57,57,3.781,Co,EDI,Adult,EDI Adult
-58,58,1.006,Co,EDI,Adult,EDI Adult
-59,59,2.418,Co,EDI,Adult,EDI Adult
-60,60,2.124,Co,EDI,Adult,EDI Adult
-61,61,2.791,Co,EDI,Adult,EDI Adult
-62,62,2.862,Co,EDI,Adult,EDI Adult
-63,63,4.067,Co,EDI,Adult,EDI Adult
-64,64,53.165,Cu,EDI,Child,EDI Child
-65,65,83.825,Cu,EDI,Child,EDI Child
-66,66,77.56,Cu,EDI,Child,EDI Child
-67,67,101.15,Cu,EDI,Child,EDI Child
-68,68,69.37,Cu,EDI,Child,EDI Child
-69,69,40.18,Cu,EDI,Child,EDI Child
-70,70,60.025,Cu,EDI,Child,EDI Child
-71,71,75.565,Cu,EDI,Child,EDI Child
-72,72,12.043,Cu,EDI,Adult,EDI Adult
-73,73,18.988,Cu,EDI,Adult,EDI Adult
-74,74,17.569,Cu,EDI,Adult,EDI Adult
-75,75,22.91,Cu,EDI,Adult,EDI Adult
-76,76,15.714,Cu,EDI,Adult,EDI Adult
-77,77,9.102,Cu,EDI,Adult,EDI Adult
-78,78,13.597,Cu,EDI,Adult,EDI Adult
-79,79,17.117,Cu,EDI,Adult,EDI Adult
-80,80,451.89,Zn,EDI,Child,EDI Child
-81,81,554.085,Zn,EDI,Child,EDI Child
-82,82,287.88,Zn,EDI,Child,EDI Child
-83,83,603.855,Zn,EDI,Child,EDI Child
-84,84,523.145,Zn,EDI,Child,EDI Child
-85,85,566.615,Zn,EDI,Child,EDI Child
-86,86,473.69,Zn,EDI,Child,EDI Child
-87,87,284.445,Zn,EDI,Child,EDI Child
-88,88,102.366,Zn,EDI,Adult,EDI Adult
-89,89,125.52,Zn,EDI,Adult,EDI Adult
-90,90,65.212,Zn,EDI,Adult,EDI Adult
-91,91,136.791,Zn,EDI,Adult,EDI Adult
-92,92,118.51,Zn,EDI,Adult,EDI Adult
-93,93,128.356,Zn,EDI,Adult,EDI Adult
-94,94,107.305,Zn,EDI,Adult,EDI Adult
-95,95,64.435,Zn,EDI,Adult,EDI Adult
-96,96,1.47,As,EDI,Child,EDI Child
-97,97,1.995,As,EDI,Child,EDI Child
-98,98,1.505,As,EDI,Child,EDI Child
-99,99,1.785,As,EDI,Child,EDI Child
-100,100,1.645,As,EDI,Child,EDI Child
-101,101,1.82,As,EDI,Child,EDI Child
-102,102,1.96,As,EDI,Child,EDI Child
-103,103,2.135,As,EDI,Child,EDI Child
-104,104,0.333,As,EDI,Adult,EDI Adult
-105,105,0.451,As,EDI,Adult,EDI Adult
-106,106,0.341,As,EDI,Adult,EDI Adult
-107,107,0.404,As,EDI,Adult,EDI Adult
-108,108,0.372,As,EDI,Adult,EDI Adult
-109,109,0.412,As,EDI,Adult,EDI Adult
-110,110,0.444,As,EDI,Adult,EDI Adult
-111,111,0.483,As,EDI,Adult,EDI Adult
-112,112,11.235,Se,EDI,Child,EDI Child
-113,113,17.9,Se,EDI,Child,EDI Child
-114,114,9.765,Se,EDI,Child,EDI Child
-115,115,15.365,Se,EDI,Child,EDI Child
-116,116,13.965,Se,EDI,Child,EDI Child
-117,117,14.525,Se,EDI,Child,EDI Child
-118,118,16.695,Se,EDI,Child,EDI Child
-119,119,18.795,Se,EDI,Child,EDI Child
-120,120,2.545,Se,EDI,Adult,EDI Adult
-121,121,4.043,Se,EDI,Adult,EDI Adult
-122,122,2.212,Se,EDI,Adult,EDI Adult
-123,123,3.481,Se,EDI,Adult,EDI Adult
-124,124,3.163,Se,EDI,Adult,EDI Adult
-125,125,3.29,Se,EDI,Adult,EDI Adult
-126,126,3.782,Se,EDI,Adult,EDI Adult
-127,127,4.257,Se,EDI,Adult,EDI Adult
-128,128,2.52,Cd,EDI,Child,EDI Child
-129,129,9.77,Cd,EDI,Child,EDI Child
-130,130,1.855,Cd,EDI,Child,EDI Child
-131,131,6.16,Cd,EDI,Child,EDI Child
-132,132,3.045,Cd,EDI,Child,EDI Child
-133,133,7.385,Cd,EDI,Child,EDI Child
-134,134,7.595,Cd,EDI,Child,EDI Child
-135,135,11.025,Cd,EDI,Child,EDI Child
-136,136,0.57,Cd,EDI,Adult,EDI Adult
-137,137,2.212,Cd,EDI,Adult,EDI Adult
-138,138,0.42,Cd,EDI,Adult,EDI Adult
-139,139,1.395,Cd,EDI,Adult,EDI Adult
-140,140,0.689,Cd,EDI,Adult,EDI Adult
-141,141,1.673,Cd,EDI,Adult,EDI Adult
-142,142,1.72,Cd,EDI,Adult,EDI Adult
-143,143,2.497,Cd,EDI,Adult,EDI Adult
-144,144,2.415,Hg,EDI,Child,EDI Child
-145,145,5.25,Hg,EDI,Child,EDI Child
-146,146,1.925,Hg,EDI,Child,EDI Child
-147,147,5.985,Hg,EDI,Child,EDI Child
-148,148,2.66,Hg,EDI,Child,EDI Child
-149,149,3.255,Hg,EDI,Child,EDI Child
-150,150,3.43,Hg,EDI,Child,EDI Child
-151,151,4.34,Hg,EDI,Child,EDI Child
-152,152,0.547,Hg,EDI,Adult,EDI Adult
-153,153,1.189,Hg,EDI,Adult,EDI Adult
-154,154,0.436,Hg,EDI,Adult,EDI Adult
-155,155,1.355,Hg,EDI,Adult,EDI Adult
-156,156,0.602,Hg,EDI,Adult,EDI Adult
-157,157,0.737,Hg,EDI,Adult,EDI Adult
-158,158,0.777,Hg,EDI,Adult,EDI Adult
-159,159,0.983,Hg,EDI,Adult,EDI Adult
-160,160,2.03,Pb,EDI,Child,EDI Child
-161,161,2.73,Pb,EDI,Child,EDI Child
-162,162,2.73,Pb,EDI,Child,EDI Child
-163,163,1.61,Pb,EDI,Child,EDI Child
-164,164,4.13,Pb,EDI,Child,EDI Child
-165,165,2.135,Pb,EDI,Child,EDI Child
-166,166,2.205,Pb,EDI,Child,EDI Child
-167,167,3.395,Pb,EDI,Child,EDI Child
-168,168,0.459,Pb,EDI,Adult,EDI Adult
-169,169,0.618,Pb,EDI,Adult,EDI Adult
-170,170,0.618,Pb,EDI,Adult,EDI Adult
-171,171,0.364,Pb,EDI,Adult,EDI Adult
-172,172,0.935,Pb,EDI,Adult,EDI Adult
-173,173,0.483,Pb,EDI,Adult,EDI Adult
-174,174,0.499,Pb,EDI,Adult,EDI Adult
-175,175,0.769,Pb,EDI,Adult,EDI Adult
-176,176,,Cr,THQ,Child,THQ Child
-177,177,0.05,Cr,THQ,Child,THQ Child
-178,178,0.017,Cr,THQ,Child,THQ Child
-179,179,0.028,Cr,THQ,Child,THQ Child
-180,180,0.024,Cr,THQ,Child,THQ Child
-181,181,0.026,Cr,THQ,Child,THQ Child
-182,182,0.034,Cr,THQ,Child,THQ Child
-183,183,0.059,Cr,THQ,Child,THQ Child
-184,184,,Cr,THQ,Adult,THQ Adult
-185,185,0.011,Cr,THQ,Adult,THQ Adult
-186,186,0.004,Cr,THQ,Adult,THQ Adult
-187,187,0.006,Cr,THQ,Adult,THQ Adult
-188,188,0.005,Cr,THQ,Adult,THQ Adult
-189,189,0.006,Cr,THQ,Adult,THQ Adult
-190,190,0.008,Cr,THQ,Adult,THQ Adult
-191,191,0.013,Cr,THQ,Adult,THQ Adult
-192,192,0.009,Mn,THQ,Child,THQ Child
-193,193,0.045,Mn,THQ,Child,THQ Child
-194,194,0.041,Mn,THQ,Child,THQ Child
-195,195,0.023,Mn,THQ,Child,THQ Child
-196,196,0.012,Mn,THQ,Child,THQ Child
-197,197,0.041,Mn,THQ,Child,THQ Child
-198,198,0.011,Mn,THQ,Child,THQ Child
-199,199,0.019,Mn,THQ,Child,THQ Child
-200,200,0.002,Mn,THQ,Adult,THQ Adult
-201,201,0.01,Mn,THQ,Adult,THQ Adult
-202,202,0.009,Mn,THQ,Adult,THQ Adult
-203,203,0.005,Mn,THQ,Adult,THQ Adult
-204,204,0.003,Mn,THQ,Adult,THQ Adult
-205,205,0.009,Mn,THQ,Adult,THQ Adult
-206,206,0.002,Mn,THQ,Adult,THQ Adult
-207,207,0.004,Mn,THQ,Adult,THQ Adult
-208,208,0.218,Fe,THQ,Child,THQ Child
-209,209,0.666,Fe,THQ,Child,THQ Child
-210,210,0.527,Fe,THQ,Child,THQ Child
-211,211,0.473,Fe,THQ,Child,THQ Child
-212,212,0.42,Fe,THQ,Child,THQ Child
-213,213,0.572,Fe,THQ,Child,THQ Child
-214,214,0.389,Fe,THQ,Child,THQ Child
-215,215,0.451,Fe,THQ,Child,THQ Child
-216,216,0.049,Fe,THQ,Adult,THQ Adult
-217,217,0.151,Fe,THQ,Adult,THQ Adult
-218,218,0.119,Fe,THQ,Adult,THQ Adult
-219,219,0.107,Fe,THQ,Adult,THQ Adult
-220,220,0.095,Fe,THQ,Adult,THQ Adult
-221,221,0.129,Fe,THQ,Adult,THQ Adult
-222,222,0.088,Fe,THQ,Adult,THQ Adult
-223,223,0.102,Fe,THQ,Adult,THQ Adult
-224,224,0.407,Co,THQ,Child,THQ Child
-225,225,0.557,Co,THQ,Child,THQ Child
-226,226,0.148,Co,THQ,Child,THQ Child
-227,227,0.356,Co,THQ,Child,THQ Child
-228,228,0.313,Co,THQ,Child,THQ Child
-229,229,0.411,Co,THQ,Child,THQ Child
-230,230,0.421,Co,THQ,Child,THQ Child
-231,231,0.599,Co,THQ,Child,THQ Child
-232,232,0.092,Co,THQ,Adult,THQ Adult
-233,233,0.126,Co,THQ,Adult,THQ Adult
-234,234,0.034,Co,THQ,Adult,THQ Adult
-235,235,0.081,Co,THQ,Adult,THQ Adult
-236,236,0.071,Co,THQ,Adult,THQ Adult
-237,237,0.093,Co,THQ,Adult,THQ Adult
-238,238,0.095,Co,THQ,Adult,THQ Adult
-239,239,0.136,Co,THQ,Adult,THQ Adult
-240,240,0.177,Cu,THQ,Child,THQ Child
-241,241,0.279,Cu,THQ,Child,THQ Child
-242,242,0.259,Cu,THQ,Child,THQ Child
-243,243,0.337,Cu,THQ,Child,THQ Child
-244,244,0.231,Cu,THQ,Child,THQ Child
-245,245,0.134,Cu,THQ,Child,THQ Child
-246,246,0.2,Cu,THQ,Child,THQ Child
-247,247,0.252,Cu,THQ,Child,THQ Child
-248,248,0.04,Cu,THQ,Adult,THQ Adult
-249,249,0.063,Cu,THQ,Adult,THQ Adult
-250,250,0.059,Cu,THQ,Adult,THQ Adult
-251,251,0.076,Cu,THQ,Adult,THQ Adult
-252,252,0.052,Cu,THQ,Adult,THQ Adult
-253,253,0.03,Cu,THQ,Adult,THQ Adult
-254,254,0.045,Cu,THQ,Adult,THQ Adult
-255,255,0.057,Cu,THQ,Adult,THQ Adult
-256,256,1.506,Zn,THQ,Child,THQ Child
-257,257,1.847,Zn,THQ,Child,THQ Child
-258,258,0.96,Zn,THQ,Child,THQ Child
-259,259,2.013,Zn,THQ,Child,THQ Child
-260,260,1.744,Zn,THQ,Child,THQ Child
-261,261,1.889,Zn,THQ,Child,THQ Child
-262,262,1.579,Zn,THQ,Child,THQ Child
-263,263,0.948,Zn,THQ,Child,THQ Child
-264,264,0.341,Zn,THQ,Adult,THQ Adult
-265,265,0.418,Zn,THQ,Adult,THQ Adult
-266,266,0.217,Zn,THQ,Adult,THQ Adult
-267,267,0.456,Zn,THQ,Adult,THQ Adult
-268,268,0.395,Zn,THQ,Adult,THQ Adult
-269,269,0.428,Zn,THQ,Adult,THQ Adult
-270,270,0.358,Zn,THQ,Adult,THQ Adult
-271,271,0.215,Zn,THQ,Adult,THQ Adult
-272,272,0.49,As,THQ,Child,THQ Child
-273,273,0.665,As,THQ,Child,THQ Child
-274,274,0.502,As,THQ,Child,THQ Child
-275,275,0.595,As,THQ,Child,THQ Child
-276,276,0.548,As,THQ,Child,THQ Child
-277,277,0.607,As,THQ,Child,THQ Child
-278,278,0.653,As,THQ,Child,THQ Child
-279,279,0.712,As,THQ,Child,THQ Child
-280,280,0.111,As,THQ,Adult,THQ Adult
-281,281,0.151,As,THQ,Adult,THQ Adult
-282,282,0.114,As,THQ,Adult,THQ Adult
-283,283,0.135,As,THQ,Adult,THQ Adult
-284,284,0.124,As,THQ,Adult,THQ Adult
-285,285,0.137,As,THQ,Adult,THQ Adult
-286,286,0.148,As,THQ,Adult,THQ Adult
-287,287,0.161,As,THQ,Adult,THQ Adult
-288,288,0.15,Se,THQ,Child,THQ Child
-289,289,0.238,Se,THQ,Child,THQ Child
-290,290,0.13,Se,THQ,Child,THQ Child
-291,291,0.205,Se,THQ,Child,THQ Child
-292,292,0.186,Se,THQ,Child,THQ Child
-293,293,0.194,Se,THQ,Child,THQ Child
-294,294,0.223,Se,THQ,Child,THQ Child
-295,295,0.251,Se,THQ,Child,THQ Child
-296,296,0.034,Se,THQ,Adult,THQ Adult
-297,297,0.054,Se,THQ,Adult,THQ Adult
-298,298,0.029,Se,THQ,Adult,THQ Adult
-299,299,0.046,Se,THQ,Adult,THQ Adult
-300,300,0.042,Se,THQ,Adult,THQ Adult
-301,301,0.044,Se,THQ,Adult,THQ Adult
-302,302,0.05,Se,THQ,Adult,THQ Adult
-303,303,0.057,Se,THQ,Adult,THQ Adult
-304,304,2.52,Cd,THQ,Child,THQ Child
-305,305,9.765,Cd,THQ,Child,THQ Child
-306,306,1.855,Cd,THQ,Child,THQ Child
-307,307,6.16,Cd,THQ,Child,THQ Child
-308,308,3.045,Cd,THQ,Child,THQ Child
-309,309,7.385,Cd,THQ,Child,THQ Child
-310,310,7.595,Cd,THQ,Child,THQ Child
-311,311,11.025,Cd,THQ,Child,THQ Child
-312,312,0.571,Cd,THQ,Adult,THQ Adult
-313,313,2.212,Cd,THQ,Adult,THQ Adult
-314,314,0.42,Cd,THQ,Adult,THQ Adult
-315,315,1.395,Cd,THQ,Adult,THQ Adult
-316,316,0.69,Cd,THQ,Adult,THQ Adult
-317,317,1.673,Cd,THQ,Adult,THQ Adult
-318,318,1.721,Cd,THQ,Adult,THQ Adult
-319,319,2.498,Cd,THQ,Adult,THQ Adult
-320,320,8.05,Hg,THQ,Child,THQ Child
-321,321,17.5,Hg,THQ,Child,THQ Child
-322,322,6.417,Hg,THQ,Child,THQ Child
-323,323,19.95,Hg,THQ,Child,THQ Child
-324,324,8.867,Hg,THQ,Child,THQ Child
-325,325,10.85,Hg,THQ,Child,THQ Child
-326,326,11.433,Hg,THQ,Child,THQ Child
-327,327,14.467,Hg,THQ,Child,THQ Child
-328,328,1.824,Hg,THQ,Adult,THQ Adult
-329,329,3.964,Hg,THQ,Adult,THQ Adult
-330,330,1.454,Hg,THQ,Adult,THQ Adult
-331,331,4.519,Hg,THQ,Adult,THQ Adult
-332,332,2.009,Hg,THQ,Adult,THQ Adult
-333,333,2.458,Hg,THQ,Adult,THQ Adult
-334,334,2.59,Hg,THQ,Adult,THQ Adult
-335,335,3.277,Hg,THQ,Adult,THQ Adult
-336,336,0.58,Pb,THQ,Child,THQ Child
-337,337,0.78,Pb,THQ,Child,THQ Child
-338,338,0.78,Pb,THQ,Child,THQ Child
-339,339,0.46,Pb,THQ,Child,THQ Child
-340,340,1.18,Pb,THQ,Child,THQ Child
-341,341,0.61,Pb,THQ,Child,THQ Child
-342,342,0.63,Pb,THQ,Child,THQ Child
-343,343,0.97,Pb,THQ,Child,THQ Child
-344,344,0.131,Pb,THQ,Adult,THQ Adult
-345,345,0.177,Pb,THQ,Adult,THQ Adult
-346,346,0.177,Pb,THQ,Adult,THQ Adult
-347,347,0.104,Pb,THQ,Adult,THQ Adult
-348,348,0.267,Pb,THQ,Adult,THQ Adult
-349,349,0.138,Pb,THQ,Adult,THQ Adult
-350,350,0.143,Pb,THQ,Adult,THQ Adult
-351,351,0.22,Pb,THQ,Adult,THQ Adult
-352,352,14.114,HI,HI,Child,HI Child
-353,353,32.391,HI,HI,Child,HI Child
-354,354,11.635,HI,HI,Child,HI Child
-355,355,30.6,HI,HI,Child,HI Child
-356,356,16.57,HI,HI,Child,HI Child
-357,357,22.717,HI,HI,Child,HI Child
-358,358,23.168,HI,HI,Child,HI Child
-359,359,29.751,HI,HI,Child,HI Child
-360,360,3.197,HI,HI,Adult,HI Adult
-361,361,7.338,HI,HI,Adult,HI Adult
-362,362,2.636,HI,HI,Adult,HI Adult
-363,363,6.932,HI,HI,Adult,HI Adult
-364,364,3.754,HI,HI,Adult,HI Adult
-365,365,5.146,HI,HI,Adult,HI Adult
-366,366,5.248,HI,HI,Adult,HI Adult
-367,367,6.739,HI,HI,Adult,HI Adult
-368,368,,Cr,CR,Child,CR Child
-369,369,0.00347,Cr,CR,Child,CR Child
-370,370,0.00121,Cr,CR,Child,CR Child
-371,371,0.00198,Cr,CR,Child,CR Child
-372,372,0.00166,Cr,CR,Child,CR Child
-373,373,0.00179,Cr,CR,Child,CR Child
-374,374,0.00238,Cr,CR,Child,CR Child
-375,375,0.00415,Cr,CR,Child,CR Child
-376,376,,Cr,CR,Adult,CR Adult
-377,377,0.000785,Cr,CR,Adult,CR Adult
-378,378,0.000274,Cr,CR,Adult,CR Adult
-379,379,0.000448,Cr,CR,Adult,CR Adult
-380,380,0.000377,Cr,CR,Adult,CR Adult
-381,381,0.000404,Cr,CR,Adult,CR Adult
-382,382,0.000539,Cr,CR,Adult,CR Adult
-383,383,0.00094,Cr,CR,Adult,CR Adult
-384,384,0.00221,As,CR,Child,CR Child
-385,385,0.00299,As,CR,Child,CR Child
-386,386,0.00226,As,CR,Child,CR Child
-387,387,0.00268,As,CR,Child,CR Child
-388,388,0.00247,As,CR,Child,CR Child
-389,389,0.00273,As,CR,Child,CR Child
-390,390,0.00294,As,CR,Child,CR Child
-391,391,0.0032,As,CR,Child,CR Child
-392,392,0.0005,As,CR,Adult,CR Adult
-393,393,0.000677,As,CR,Adult,CR Adult
-394,394,0.00051,As,CR,Adult,CR Adult
-395,395,0.000606,As,CR,Adult,CR Adult
-396,396,0.000558,As,CR,Adult,CR Adult
-397,397,0.000618,As,CR,Adult,CR Adult
-398,398,0.000666,As,CR,Adult,CR Adult
-399,399,0.000725,As,CR,Adult,CR Adult
-400,400,0.000958,Cd,CR,Child,CR Child
-401,401,0.00371,Cd,CR,Child,CR Child
-402,402,0.000705,Cd,CR,Child,CR Child
-403,403,0.00234,Cd,CR,Child,CR Child
-404,404,0.00116,Cd,CR,Child,CR Child
-405,405,0.00281,Cd,CR,Child,CR Child
-406,406,0.00289,Cd,CR,Child,CR Child
-407,407,0.00419,Cd,CR,Child,CR Child
-408,408,0.000217,Cd,CR,Adult,CR Adult
-409,409,0.000841,Cd,CR,Adult,CR Adult
-410,410,0.00016,Cd,CR,Adult,CR Adult
-411,411,0.00053,Cd,CR,Adult,CR Adult
-412,412,0.000262,Cd,CR,Adult,CR Adult
-413,413,0.000635,Cd,CR,Adult,CR Adult
-414,414,0.000654,Cd,CR,Adult,CR Adult
-415,415,0.000949,Cd,CR,Adult,CR Adult
-416,416,1.73e-05,Pb,CR,Child,CR Child
-417,417,2.32e-05,Pb,CR,Child,CR Child
-418,418,2.32e-05,Pb,CR,Child,CR Child
-419,419,1.37e-05,Pb,CR,Child,CR Child
-420,420,3.51e-05,Pb,CR,Child,CR Child
-421,421,1.81e-05,Pb,CR,Child,CR Child
-422,422,1.87e-05,Pb,CR,Child,CR Child
-423,423,2.89e-05,Pb,CR,Child,CR Child
-424,424,3.9e-06,Pb,CR,Adult,CR Adult
-425,425,5.25e-06,Pb,CR,Adult,CR Adult
-426,426,5.25e-06,Pb,CR,Adult,CR Adult
-427,427,3.09e-06,Pb,CR,Adult,CR Adult
-428,428,7.95e-06,Pb,CR,Adult,CR Adult
-429,429,4.11e-06,Pb,CR,Adult,CR Adult
-430,430,4.24e-06,Pb,CR,Adult,CR Adult
-431,431,6.54e-06,Pb,CR,Adult,CR Adult
-432,432,0.00318,TCR,TCR,Child,TCR Child
-433,433,0.0102,TCR,TCR,Child,TCR Child
-434,434,0.0042,TCR,TCR,Child,TCR Child
-435,435,0.00701,TCR,TCR,Child,TCR Child
-436,436,0.00532,TCR,TCR,Child,TCR Child
-437,437,0.00734,TCR,TCR,Child,TCR Child
-438,438,0.00822,TCR,TCR,Child,TCR Child
-439,439,0.0116,TCR,TCR,Child,TCR Child
-440,440,0.00072,TCR,TCR,Adult,TCR Adult
-441,441,0.00231,TCR,TCR,Adult,TCR Adult
-442,442,0.000948,TCR,TCR,Adult,TCR Adult
-443,443,0.00159,TCR,TCR,Adult,TCR Adult
-444,444,0.0012,TCR,TCR,Adult,TCR Adult
-445,445,0.00166,TCR,TCR,Adult,TCR Adult
-446,446,0.00186,TCR,TCR,Adult,TCR Adult
-447,447,0.00262,TCR,TCR,Adult,TCR Adult
+,Values,Metals,Param,Age
+0,,Cr,EDI,Child
+1,6.93,Cr,EDI,Child
+2,2.415,Cr,EDI,Child
+3,3.955,Cr,EDI,Child
+4,3.325,Cr,EDI,Child
+5,3.57,Cr,EDI,Child
+6,4.76,Cr,EDI,Child
+7,8.295,Cr,EDI,Child
+8,,Cr,EDI,Adult
+9,1.569,Cr,EDI,Adult
+10,0.547,Cr,EDI,Adult
+11,0.895,Cr,EDI,Adult
+12,0.753,Cr,EDI,Adult
+13,0.808,Cr,EDI,Adult
+14,1.078,Cr,EDI,Adult
+15,1.879,Cr,EDI,Adult
+16,1.225,Mn,EDI,Child
+17,6.23,Mn,EDI,Child
+18,5.705,Mn,EDI,Child
+19,3.255,Mn,EDI,Child
+20,1.715,Mn,EDI,Child
+21,5.775,Mn,EDI,Child
+22,1.47,Mn,EDI,Child
+23,2.59,Mn,EDI,Child
+24,0.277,Mn,EDI,Adult
+25,1.411,Mn,EDI,Adult
+26,1.292,Mn,EDI,Adult
+27,0.737,Mn,EDI,Adult
+28,0.388,Mn,EDI,Adult
+29,1.308,Mn,EDI,Adult
+30,0.333,Mn,EDI,Adult
+31,0.586,Mn,EDI,Adult
+32,152.32,Fe,EDI,Child
+33,466.0,Fe,EDI,Child
+34,369.15,Fe,EDI,Child
+35,33.03,Fe,EDI,Child
+36,293.965,Fe,EDI,Child
+37,400.085,Fe,EDI,Child
+38,272.475,Fe,EDI,Child
+39,315.42,Fe,EDI,Child
+40,34.505,Fe,EDI,Adult
+41,105.65,Fe,EDI,Adult
+42,83.622,Fe,EDI,Adult
+43,74.988,Fe,EDI,Adult
+44,66.592,Fe,EDI,Adult
+45,90.632,Fe,EDI,Adult
+46,61.723,Fe,EDI,Adult
+47,71.452,Fe,EDI,Adult
+48,12.215,Co,EDI,Child
+49,16.695,Co,EDI,Child
+50,4.445,Co,EDI,Child
+51,10.675,Co,EDI,Child
+52,9.38,Co,EDI,Child
+53,12.32,Co,EDI,Child
+54,12.635,Co,EDI,Child
+55,17.955,Co,EDI,Child
+56,2.767,Co,EDI,Adult
+57,3.781,Co,EDI,Adult
+58,1.006,Co,EDI,Adult
+59,2.418,Co,EDI,Adult
+60,2.124,Co,EDI,Adult
+61,2.791,Co,EDI,Adult
+62,2.862,Co,EDI,Adult
+63,4.067,Co,EDI,Adult
+64,53.165,Cu,EDI,Child
+65,83.825,Cu,EDI,Child
+66,77.56,Cu,EDI,Child
+67,101.15,Cu,EDI,Child
+68,69.37,Cu,EDI,Child
+69,40.18,Cu,EDI,Child
+70,60.025,Cu,EDI,Child
+71,75.565,Cu,EDI,Child
+72,12.043,Cu,EDI,Adult
+73,18.988,Cu,EDI,Adult
+74,17.569,Cu,EDI,Adult
+75,22.91,Cu,EDI,Adult
+76,15.714,Cu,EDI,Adult
+77,9.102,Cu,EDI,Adult
+78,13.597,Cu,EDI,Adult
+79,17.117,Cu,EDI,Adult
+80,451.89,Zn,EDI,Child
+81,554.085,Zn,EDI,Child
+82,287.88,Zn,EDI,Child
+83,603.855,Zn,EDI,Child
+84,523.145,Zn,EDI,Child
+85,566.615,Zn,EDI,Child
+86,473.69,Zn,EDI,Child
+87,284.445,Zn,EDI,Child
+88,102.366,Zn,EDI,Adult
+89,125.52,Zn,EDI,Adult
+90,65.212,Zn,EDI,Adult
+91,136.791,Zn,EDI,Adult
+92,118.51,Zn,EDI,Adult
+93,128.356,Zn,EDI,Adult
+94,107.305,Zn,EDI,Adult
+95,64.435,Zn,EDI,Adult
+96,1.47,As,EDI,Child
+97,1.995,As,EDI,Child
+98,1.505,As,EDI,Child
+99,1.785,As,EDI,Child
+100,1.645,As,EDI,Child
+101,1.82,As,EDI,Child
+102,1.96,As,EDI,Child
+103,2.135,As,EDI,Child
+104,0.333,As,EDI,Adult
+105,0.451,As,EDI,Adult
+106,0.341,As,EDI,Adult
+107,0.404,As,EDI,Adult
+108,0.372,As,EDI,Adult
+109,0.412,As,EDI,Adult
+110,0.444,As,EDI,Adult
+111,0.483,As,EDI,Adult
+112,11.235,Se,EDI,Child
+113,17.9,Se,EDI,Child
+114,9.765,Se,EDI,Child
+115,15.365,Se,EDI,Child
+116,13.965,Se,EDI,Child
+117,14.525,Se,EDI,Child
+118,16.695,Se,EDI,Child
+119,18.795,Se,EDI,Child
+120,2.545,Se,EDI,Adult
+121,4.043,Se,EDI,Adult
+122,2.212,Se,EDI,Adult
+123,3.481,Se,EDI,Adult
+124,3.163,Se,EDI,Adult
+125,3.29,Se,EDI,Adult
+126,3.782,Se,EDI,Adult
+127,4.257,Se,EDI,Adult
+128,2.52,Cd,EDI,Child
+129,9.77,Cd,EDI,Child
+130,1.855,Cd,EDI,Child
+131,6.16,Cd,EDI,Child
+132,3.045,Cd,EDI,Child
+133,7.385,Cd,EDI,Child
+134,7.595,Cd,EDI,Child
+135,11.025,Cd,EDI,Child
+136,0.57,Cd,EDI,Adult
+137,2.212,Cd,EDI,Adult
+138,0.42,Cd,EDI,Adult
+139,1.395,Cd,EDI,Adult
+140,0.689,Cd,EDI,Adult
+141,1.673,Cd,EDI,Adult
+142,1.72,Cd,EDI,Adult
+143,2.497,Cd,EDI,Adult
+144,2.415,Hg,EDI,Child
+145,5.25,Hg,EDI,Child
+146,1.925,Hg,EDI,Child
+147,5.985,Hg,EDI,Child
+148,2.66,Hg,EDI,Child
+149,3.255,Hg,EDI,Child
+150,3.43,Hg,EDI,Child
+151,4.34,Hg,EDI,Child
+152,0.547,Hg,EDI,Adult
+153,1.189,Hg,EDI,Adult
+154,0.436,Hg,EDI,Adult
+155,1.355,Hg,EDI,Adult
+156,0.602,Hg,EDI,Adult
+157,0.737,Hg,EDI,Adult
+158,0.777,Hg,EDI,Adult
+159,0.983,Hg,EDI,Adult
+160,2.03,Pb,EDI,Child
+161,2.73,Pb,EDI,Child
+162,2.73,Pb,EDI,Child
+163,1.61,Pb,EDI,Child
+164,4.13,Pb,EDI,Child
+165,2.135,Pb,EDI,Child
+166,2.205,Pb,EDI,Child
+167,3.395,Pb,EDI,Child
+168,0.459,Pb,EDI,Adult
+169,0.618,Pb,EDI,Adult
+170,0.618,Pb,EDI,Adult
+171,0.364,Pb,EDI,Adult
+172,0.935,Pb,EDI,Adult
+173,0.483,Pb,EDI,Adult
+174,0.499,Pb,EDI,Adult
+175,0.769,Pb,EDI,Adult
+176,,Cr,THQ,Child
+177,0.05,Cr,THQ,Child
+178,0.017,Cr,THQ,Child
+179,0.028,Cr,THQ,Child
+180,0.024,Cr,THQ,Child
+181,0.026,Cr,THQ,Child
+182,0.034,Cr,THQ,Child
+183,0.059,Cr,THQ,Child
+184,,Cr,THQ,Adult
+185,0.011,Cr,THQ,Adult
+186,0.004,Cr,THQ,Adult
+187,0.006,Cr,THQ,Adult
+188,0.005,Cr,THQ,Adult
+189,0.006,Cr,THQ,Adult
+190,0.008,Cr,THQ,Adult
+191,0.013,Cr,THQ,Adult
+192,0.009,Mn,THQ,Child
+193,0.045,Mn,THQ,Child
+194,0.041,Mn,THQ,Child
+195,0.023,Mn,THQ,Child
+196,0.012,Mn,THQ,Child
+197,0.041,Mn,THQ,Child
+198,0.011,Mn,THQ,Child
+199,0.019,Mn,THQ,Child
+200,0.002,Mn,THQ,Adult
+201,0.01,Mn,THQ,Adult
+202,0.009,Mn,THQ,Adult
+203,0.005,Mn,THQ,Adult
+204,0.003,Mn,THQ,Adult
+205,0.009,Mn,THQ,Adult
+206,0.002,Mn,THQ,Adult
+207,0.004,Mn,THQ,Adult
+208,0.218,Fe,THQ,Child
+209,0.666,Fe,THQ,Child
+210,0.527,Fe,THQ,Child
+211,0.473,Fe,THQ,Child
+212,0.42,Fe,THQ,Child
+213,0.572,Fe,THQ,Child
+214,0.389,Fe,THQ,Child
+215,0.451,Fe,THQ,Child
+216,0.049,Fe,THQ,Adult
+217,0.151,Fe,THQ,Adult
+218,0.119,Fe,THQ,Adult
+219,0.107,Fe,THQ,Adult
+220,0.095,Fe,THQ,Adult
+221,0.129,Fe,THQ,Adult
+222,0.088,Fe,THQ,Adult
+223,0.102,Fe,THQ,Adult
+224,0.407,Co,THQ,Child
+225,0.557,Co,THQ,Child
+226,0.148,Co,THQ,Child
+227,0.356,Co,THQ,Child
+228,0.313,Co,THQ,Child
+229,0.411,Co,THQ,Child
+230,0.421,Co,THQ,Child
+231,0.599,Co,THQ,Child
+232,0.092,Co,THQ,Adult
+233,0.126,Co,THQ,Adult
+234,0.034,Co,THQ,Adult
+235,0.081,Co,THQ,Adult
+236,0.071,Co,THQ,Adult
+237,0.093,Co,THQ,Adult
+238,0.095,Co,THQ,Adult
+239,0.136,Co,THQ,Adult
+240,0.177,Cu,THQ,Child
+241,0.279,Cu,THQ,Child
+242,0.259,Cu,THQ,Child
+243,0.337,Cu,THQ,Child
+244,0.231,Cu,THQ,Child
+245,0.134,Cu,THQ,Child
+246,0.2,Cu,THQ,Child
+247,0.252,Cu,THQ,Child
+248,0.04,Cu,THQ,Adult
+249,0.063,Cu,THQ,Adult
+250,0.059,Cu,THQ,Adult
+251,0.076,Cu,THQ,Adult
+252,0.052,Cu,THQ,Adult
+253,0.03,Cu,THQ,Adult
+254,0.045,Cu,THQ,Adult
+255,0.057,Cu,THQ,Adult
+256,1.506,Zn,THQ,Child
+257,1.847,Zn,THQ,Child
+258,0.96,Zn,THQ,Child
+259,2.013,Zn,THQ,Child
+260,1.744,Zn,THQ,Child
+261,1.889,Zn,THQ,Child
+262,1.579,Zn,THQ,Child
+263,0.948,Zn,THQ,Child
+264,0.341,Zn,THQ,Adult
+265,0.418,Zn,THQ,Adult
+266,0.217,Zn,THQ,Adult
+267,0.456,Zn,THQ,Adult
+268,0.395,Zn,THQ,Adult
+269,0.428,Zn,THQ,Adult
+270,0.358,Zn,THQ,Adult
+271,0.215,Zn,THQ,Adult
+272,0.49,As,THQ,Child
+273,0.665,As,THQ,Child
+274,0.502,As,THQ,Child
+275,0.595,As,THQ,Child
+276,0.548,As,THQ,Child
+277,0.607,As,THQ,Child
+278,0.653,As,THQ,Child
+279,0.712,As,THQ,Child
+280,0.111,As,THQ,Adult
+281,0.151,As,THQ,Adult
+282,0.114,As,THQ,Adult
+283,0.135,As,THQ,Adult
+284,0.124,As,THQ,Adult
+285,0.137,As,THQ,Adult
+286,0.148,As,THQ,Adult
+287,0.161,As,THQ,Adult
+288,0.15,Se,THQ,Child
+289,0.238,Se,THQ,Child
+290,0.13,Se,THQ,Child
+291,0.205,Se,THQ,Child
+292,0.186,Se,THQ,Child
+293,0.194,Se,THQ,Child
+294,0.223,Se,THQ,Child
+295,0.251,Se,THQ,Child
+296,0.034,Se,THQ,Adult
+297,0.054,Se,THQ,Adult
+298,0.029,Se,THQ,Adult
+299,0.046,Se,THQ,Adult
+300,0.042,Se,THQ,Adult
+301,0.044,Se,THQ,Adult
+302,0.05,Se,THQ,Adult
+303,0.057,Se,THQ,Adult
+304,2.52,Cd,THQ,Child
+305,9.765,Cd,THQ,Child
+306,1.855,Cd,THQ,Child
+307,6.16,Cd,THQ,Child
+308,3.045,Cd,THQ,Child
+309,7.385,Cd,THQ,Child
+310,7.595,Cd,THQ,Child
+311,11.025,Cd,THQ,Child
+312,0.571,Cd,THQ,Adult
+313,2.212,Cd,THQ,Adult
+314,0.42,Cd,THQ,Adult
+315,1.395,Cd,THQ,Adult
+316,0.69,Cd,THQ,Adult
+317,1.673,Cd,THQ,Adult
+318,1.721,Cd,THQ,Adult
+319,2.498,Cd,THQ,Adult
+320,8.05,Hg,THQ,Child
+321,17.5,Hg,THQ,Child
+322,6.417,Hg,THQ,Child
+323,19.95,Hg,THQ,Child
+324,8.867,Hg,THQ,Child
+325,10.85,Hg,THQ,Child
+326,11.433,Hg,THQ,Child
+327,14.467,Hg,THQ,Child
+328,1.824,Hg,THQ,Adult
+329,3.964,Hg,THQ,Adult
+330,1.454,Hg,THQ,Adult
+331,4.519,Hg,THQ,Adult
+332,2.009,Hg,THQ,Adult
+333,2.458,Hg,THQ,Adult
+334,2.59,Hg,THQ,Adult
+335,3.277,Hg,THQ,Adult
+336,0.58,Pb,THQ,Child
+337,0.78,Pb,THQ,Child
+338,0.78,Pb,THQ,Child
+339,0.46,Pb,THQ,Child
+340,1.18,Pb,THQ,Child
+341,0.61,Pb,THQ,Child
+342,0.63,Pb,THQ,Child
+343,0.97,Pb,THQ,Child
+344,0.131,Pb,THQ,Adult
+345,0.177,Pb,THQ,Adult
+346,0.177,Pb,THQ,Adult
+347,0.104,Pb,THQ,Adult
+348,0.267,Pb,THQ,Adult
+349,0.138,Pb,THQ,Adult
+350,0.143,Pb,THQ,Adult
+351,0.22,Pb,THQ,Adult
+352,14.114, ,HI,Child
+353,32.391, ,HI,Child
+354,11.635, ,HI,Child
+355,30.6, ,HI,Child
+356,16.57, ,HI,Child
+357,22.717, ,HI,Child
+358,23.168, ,HI,Child
+359,29.751, ,HI,Child
+360,3.197, ,HI,Adult
+361,7.338, ,HI,Adult
+362,2.636, ,HI,Adult
+363,6.932, ,HI,Adult
+364,3.754, ,HI,Adult
+365,5.146, ,HI,Adult
+366,5.248, ,HI,Adult
+367,6.739, ,HI,Adult
+368,,Cr,CR,Child
+369,0.00347,Cr,CR,Child
+370,0.00121,Cr,CR,Child
+371,0.00198,Cr,CR,Child
+372,0.00166,Cr,CR,Child
+373,0.00179,Cr,CR,Child
+374,0.00238,Cr,CR,Child
+375,0.00415,Cr,CR,Child
+376,,Cr,CR,Adult
+377,0.000785,Cr,CR,Adult
+378,0.000274,Cr,CR,Adult
+379,0.000448,Cr,CR,Adult
+380,0.000377,Cr,CR,Adult
+381,0.000404,Cr,CR,Adult
+382,0.000539,Cr,CR,Adult
+383,0.00094,Cr,CR,Adult
+384,0.00221,As,CR,Child
+385,0.00299,As,CR,Child
+386,0.00226,As,CR,Child
+387,0.00268,As,CR,Child
+388,0.00247,As,CR,Child
+389,0.00273,As,CR,Child
+390,0.00294,As,CR,Child
+391,0.0032,As,CR,Child
+392,0.0005,As,CR,Adult
+393,0.000677,As,CR,Adult
+394,0.00051,As,CR,Adult
+395,0.000606,As,CR,Adult
+396,0.000558,As,CR,Adult
+397,0.000618,As,CR,Adult
+398,0.000666,As,CR,Adult
+399,0.000725,As,CR,Adult
+400,0.000958,Cd,CR,Child
+401,0.00371,Cd,CR,Child
+402,0.000705,Cd,CR,Child
+403,0.00234,Cd,CR,Child
+404,0.00116,Cd,CR,Child
+405,0.00281,Cd,CR,Child
+406,0.00289,Cd,CR,Child
+407,0.00419,Cd,CR,Child
+408,0.000217,Cd,CR,Adult
+409,0.000841,Cd,CR,Adult
+410,0.00016,Cd,CR,Adult
+411,0.00053,Cd,CR,Adult
+412,0.000262,Cd,CR,Adult
+413,0.000635,Cd,CR,Adult
+414,0.000654,Cd,CR,Adult
+415,0.000949,Cd,CR,Adult
+416,1.73e-05,Pb,CR,Child
+417,2.32e-05,Pb,CR,Child
+418,2.32e-05,Pb,CR,Child
+419,1.37e-05,Pb,CR,Child
+420,3.51e-05,Pb,CR,Child
+421,1.81e-05,Pb,CR,Child
+422,1.87e-05,Pb,CR,Child
+423,2.89e-05,Pb,CR,Child
+424,3.9e-06,Pb,CR,Adult
+425,5.25e-06,Pb,CR,Adult
+426,5.25e-06,Pb,CR,Adult
+427,3.09e-06,Pb,CR,Adult
+428,7.95e-06,Pb,CR,Adult
+429,4.11e-06,Pb,CR,Adult
+430,4.24e-06,Pb,CR,Adult
+431,6.54e-06,Pb,CR,Adult
+432,0.00318, ,TCR,Child
+433,0.0102, ,TCR,Child
+434,0.0042, ,TCR,Child
+435,0.00701, ,TCR,Child
+436,0.00532, ,TCR,Child
+437,0.00734, ,TCR,Child
+438,0.00822, ,TCR,Child
+439,0.0116, ,TCR,Child
+440,0.00072, ,TCR,Adult
+441,0.00231, ,TCR,Adult
+442,0.000948, ,TCR,Adult
+443,0.00159, ,TCR,Adult
+444,0.0012, ,TCR,Adult
+445,0.00166, ,TCR,Adult
+446,0.00186, ,TCR,Adult
+447,0.00262, ,TCR,Adult
