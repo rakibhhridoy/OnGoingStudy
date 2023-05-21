@@ -8,7 +8,285 @@ This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 ```{r}
-plot(cars)
+library(ggpubr)
+library(cowplot)
+```
+
+```{r}
+hinormA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/hinormA.csv")
+hilogA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/hilogA.csv")
+crnormA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/crnormA.csv")
+crlogA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/crlogA.csv")
+
+```
+
+```{r}
+hinormA
+```
+
+```{r}
+gghistogram(
+  hinormA, x = "Values", y = "..density..",
+  add = "mean", rug = TRUE,
+  fill = "label", palette = c("#00AFBB", "#E7B800"),
+  add_density = TRUE
+  )
+```
+
+```{r}
+phist <- gghistogram(
+  hinormA, x = "Values", 
+  add = "mean", rug = TRUE, bins = 100,
+  fill = "label", palette = c("#00AFBB", "#E7B800")
+)+
+  xlab(label = "HI Adult")+
+  ylab("Frequency")
+
+# 2. Create the density plot with y-axis on the right
+# Remove x axis elements
+pdensity <- ggdensity(
+  hinormA, x = "Values",
+  color= "label", palette = c("#00AFBB", "#E7B800"),
+  alpha = 0
+) +
+  ylab("Density")+
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), position = "right")  +
+  theme_half_open(11, rel_small = 1) +
+  rremove("x.axis")+
+  rremove("xlab") +
+  rremove("x.text") +
+  rremove("x.ticks") +
+  rremove("legend")
+
+
+# 3. Align the two plots and then overlay them.
+aligned_plots <- align_plots(phist, pdensity, align="hv", axis="tblr")
+ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+log_normalWAhi <- read.csv("/home/RHHLab/Research/Buriganga/monteData/log_normalhiWA.csv")
+log_normalSAhi <- read.csv("/home/RHHLab/Research/Buriganga/monteData/log_normalhiSA.csv")
+log_normalWAcr <- read.csv("/home/RHHLab/Research/Buriganga/monteData/log_normalcrWA.csv")
+log_normalSAcr <- read.csv("/home/RHHLab/Research/Buriganga/monteData/log_normalcrSA.csv")
+```
+
+```{r}
+log_normalWAhi
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+phist <- gghistogram(
+  log_normalWAhi, x = "Values", 
+  add = "mean", rug = TRUE, bins = 100,
+  fill = "Legend", palette = c("#00AFBB", "#E7B800")
+)+
+  xlab(label = "HI Adult Winter")+
+  ylab("Frequency")
+
+# 2. Create the density plot with y-axis on the right
+# Remove x axis elements
+pdensity <- ggdensity(
+  log_normalWAhi, x = "Values",
+  color= "Legend", palette = c("#00AFBB", "#E7B800"),
+  alpha = 0
+) +
+  ylab("Density")+
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), position = "right")  +
+  theme_half_open(11, rel_small = 1) +
+  rremove("x.axis")+
+  rremove("xlab") +
+  rremove("x.text") +
+  rremove("x.ticks") +
+  rremove("legend")
+
+
+# 3. Align the two plots and then overlay them.
+aligned_plots <- align_plots(phist, pdensity, align="hv", axis="tblr")
+ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+hiSeasonal <- read.csv("/home/RHHLab/Research/Buriganga/monteData/hiSeasonal.csv")
+crSeasonal <- read.csv("/home/RHHLab/Research/Buriganga/monteData/crSeasonal.csv")
+```
+
+```{r}
+phist <- gghistogram(
+  hiSeasonal, x = "Values", 
+  add = "mean", rug = TRUE, bins = 100,
+  fill = "Seasons", palette = c("#00AFBB", "#E7B800")
+)+
+  xlab(label = "HI Adult Winter")+
+  ylab("Frequency")
+
+# 2. Create the density plot with y-axis on the right
+# Remove x axis elements
+pdensity <- ggdensity(
+  hiSeasonal, x = "Values",
+  color= "Seasons", palette = c("#00AFBB", "#E7B800"),
+  alpha = 0
+) +
+  ylab("Density")+
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), position = "right")  +
+  theme_half_open(11, rel_small = 1) +
+  rremove("x.axis")+
+  rremove("xlab") +
+  rremove("x.text") +
+  rremove("x.ticks") +
+  rremove("legend")
+
+
+# 3. Align the two plots and then overlay them.
+aligned_plots <- align_plots(phist, pdensity, align="hv", axis="tblr")
+ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
+```
+
+```{r}
+phist <- gghistogram(
+  crSeasonal, x = "Values", 
+  add = "mean", rug = TRUE, bins = 100,
+  fill = "Seasons", palette = c("#00AFBB", "#E7B800")
+)+
+  xlab(label = "CR Adult Winter")+
+  ylab("Frequency")
+
+# 2. Create the density plot with y-axis on the right
+# Remove x axis elements
+pdensity <- ggdensity(
+  crSeasonal, x = "Values",
+  color= "Seasons", palette = c("#00AFBB", "#E7B800"),
+  alpha = 0
+) +
+  ylab("Density")+
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), position = "right")  +
+  theme_half_open(11, rel_small = 1) +
+  rremove("x.axis")+
+  rremove("xlab") +
+  rremove("x.text") +
+  rremove("x.ticks") +
+  rremove("legend")
+
+
+# 3. Align the two plots and then overlay them.
+aligned_plots <- align_plots(phist, pdensity, align="hv", axis="tblr")
+ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+hiWA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/hiA_orig.csv")
+crWA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/crA_orig.csv")
+```
+
+```{r}
+phist <- gghistogram(
+  hiWA, x = "Values", 
+  add = "mean", rug = TRUE, bins = 100,
+  fill = "Seasons", palette = c("#00AFBB", "#E7B800")
+)+
+  xlab(label = "HI Adult")+
+  ylab("Frequency")
+
+# 2. Create the density plot with y-axis on the right
+# Remove x axis elements
+pdensity <- ggdensity(
+  hiWA, x = "Values",
+  color= "Seasons", palette = c("#00AFBB", "#E7B800"),
+  alpha = 0
+) +
+  ylab("Density")+
+  scale_y_continuous(expand = expansion(mult = c(0, 0.05)), position = "right")  +
+  theme_half_open(11, rel_small = 1) +
+  rremove("x.axis")+
+  rremove("xlab") +
+  rremove("x.text") +
+  rremove("x.ticks") +
+  rremove("legend")
+
+
+# 3. Align the two plots and then overlay them.
+aligned_plots <- align_plots(phist, pdensity, align="hv", axis="tblr")
+ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
