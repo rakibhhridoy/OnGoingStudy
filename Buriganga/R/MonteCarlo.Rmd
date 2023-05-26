@@ -407,15 +407,24 @@ ggdraw(aligned_plots[[1]]) + draw_plot(aligned_plots[[2]])
 ```
 
 ```{r}
-
+perHiA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/simul/percent_HiA.csv")
+perHiC <- read.csv("/home/RHHLab/Research/Buriganga/monteData/simul/percent_HiC.csv")
+percrA <- read.csv("/home/RHHLab/Research/Buriganga/monteData/simul/percent_crA.csv")
+percrC <- read.csv("/home/RHHLab/Research/Buriganga/monteData/simul/percent_crC.csv")
 ```
 
 ```{r}
-
+perHiA
 ```
 
 ```{r}
-
+ggplot(data=perHiA,
+       aes(x=percent, y=metals,
+           fill=Seasons))+
+  geom_bar(stat="identity",
+           position="dodge")+
+  xlim(0, 100)+
+  labs(x= "Percent", y = "", title = "(a) Sensitivity Adult")
 ```
 
 ```{r}
